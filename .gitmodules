@@ -1,0 +1,3 @@
+[submodule "tests/e2e/futool"]
+	path = tests/e2e/futool
+	url = https://github.com/percosis-labs/futool

@@ -1,0 +1,163 @@
+---
+swagger: "2.0"
+info:
+  version: "3.0"
+  title: Fury Light Client RPC
+  description: A REST interface for state queries, transaction generation and broadcasting.
+tags:
+  - name: Vesting
+    description: Validator vesting module APIs
+schemes:
+  - https
+host: api.data.fury.io
+securityDefinitions:
+  kms:
+    type: basic
+paths:
+  /vesting/circulatingsupply:
+    get:
+      deprecated: true
+      summary: Get the current circulating supply of FURY
+      tags:
+        - Vesting
+      produces:
+        - application/json
+      responses:
+        200:
+          description: FURY circulating supply
+          schema:
+            properties:
+              height:
+                type: string
+                example: "100"
+              result:
+                type: string
+                example: "81443180"
+        500:
+          description: Server internal error
+  /vesting/totalsupply:
+    get:
+      deprecated: true
+      summary: Get the total supply of FURY
+      tags:
+        - Vesting
+      produces:
+        - application/json
+      responses:
+        200:
+          description: FURY total supply
+          schema:
+            properties:
+              height:
+                type: string
+                example: "100"
+              result:
+                type: string
+                example: "120000000"
+        500:
+          description: Server internal error
+  /vesting/circulatingsupplyjinx:
+    get:
+      deprecated: true
+      summary: Get the current circulating supply of JINX
+      tags:
+        - Vesting
+      produces:
+        - application/json
+      responses:
+        200:
+          description: JINX circulating supply
+          schema:
+            properties:
+              height:
+                type: string
+                example: "100"
+              result:
+                type: string
+                example: "63750000"
+        500:
+          description: Server internal error
+  /vesting/totalsupplyjinx:
+    get:
+      deprecated: true
+      summary: Get the total supply of JINX
+      tags:
+        - Vesting
+      produces:
+        - application/json
+      responses:
+        200:
+          description: JINX total supply
+          schema:
+            properties:
+              height:
+                type: string
+                example: "100"
+              result:
+                type: string
+                example: "200000000"
+        500:
+          description: Server internal error
+  /vesting/circulatingsupplymer:
+    get:
+      deprecated: true
+      summary: Get the current circulating supply of MER
+      tags:
+        - Vesting
+      produces:
+        - application/json
+      responses:
+        200:
+          description: MER circulating supply
+          schema:
+            properties:
+              height:
+                type: string
+                example: "100"
+              result:
+                type: string
+                example: "63750000"
+        500:
+          description: Server internal error
+  /vesting/circulatingsupplyusdf:
+    get:
+      deprecated: true
+      summary: Get the current circulating supply of USDF
+      tags:
+        - Vesting
+      produces:
+        - application/json
+      responses:
+        200:
+          description: USDF circulating supply
+          schema:
+            properties:
+              height:
+                type: string
+                example: "100"
+              result:
+                type: string
+                example: "63750000"
+        500:
+          description: Server internal error
+  /vesting/totalsupplyusdf:
+    get:
+      deprecated: true
+      summary: Get the total supply of USDF
+      tags:
+        - Vesting
+      produces:
+        - application/json
+      responses:
+        200:
+          description: USDF total supply
+          schema:
+            properties:
+              height:
+                type: string
+                example: "100"
+              result:
+                type: string
+                example: "200000000"
+        500:
+          description: Server internal error
