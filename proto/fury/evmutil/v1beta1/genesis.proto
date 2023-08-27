@@ -2,8 +2,8 @@ syntax = "proto3";
 package fury.evmutil.v1beta1;
 
 import "cosmos_proto/cosmos.proto";
-import "gogoproto/gogo.proto";
 import "fury/evmutil/v1beta1/conversion_pair.proto";
+import "gogoproto/gogo.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/evmutil/types";
 option (gogoproto.equal_all) = true;

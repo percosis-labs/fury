@@ -4,9 +4,9 @@ package fury.savings.v1beta1;
 import "cosmos/base/query/v1beta1/pagination.proto";
 import "cosmos/base/v1beta1/coin.proto";
 import "cosmos_proto/cosmos.proto";
+import "fury/savings/v1beta1/store.proto";
 import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
-import "fury/savings/v1beta1/store.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/savings/types";
 

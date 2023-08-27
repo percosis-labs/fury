@@ -3,11 +3,11 @@ package fury.committee.v1beta1;
 
 import "cosmos/base/query/v1beta1/pagination.proto";
 import "cosmos_proto/cosmos.proto";
+import "fury/committee/v1beta1/genesis.proto";
 import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
 import "google/protobuf/any.proto";
 import "google/protobuf/timestamp.proto";
-import "fury/committee/v1beta1/genesis.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/committee/types";
 option (gogoproto.goproto_getters_all) = false;

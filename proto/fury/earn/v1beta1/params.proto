@@ -1,8 +1,8 @@
 syntax = "proto3";
 package fury.earn.v1beta1;
 
-import "gogoproto/gogo.proto";
 import "fury/earn/v1beta1/vault.proto";
+import "gogoproto/gogo.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/earn/types";
 

@@ -2,8 +2,8 @@ syntax = "proto3";
 package fury.earn.v1beta1;
 
 import "cosmos_proto/cosmos.proto";
-import "gogoproto/gogo.proto";
 import "fury/earn/v1beta1/strategy.proto";
+import "gogoproto/gogo.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/earn/types";
 

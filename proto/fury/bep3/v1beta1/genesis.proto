@@ -1,9 +1,9 @@
 syntax = "proto3";
 package fury.bep3.v1beta1;
 
+import "fury/bep3/v1beta1/bep3.proto";
 import "gogoproto/gogo.proto";
 import "google/protobuf/timestamp.proto";
-import "fury/bep3/v1beta1/bep3.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/bep3/types";
 

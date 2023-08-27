@@ -1,8 +1,8 @@
 syntax = "proto3";
 package fury.savings.v1beta1;
 
-import "gogoproto/gogo.proto";
 import "fury/savings/v1beta1/store.proto";
+import "gogoproto/gogo.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/savings/types";
 

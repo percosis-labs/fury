@@ -2,9 +2,9 @@ syntax = "proto3";
 package fury.evmutil.v1beta1;
 
 import "cosmos/base/query/v1beta1/pagination.proto";
+import "fury/evmutil/v1beta1/genesis.proto";
 import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
-import "fury/evmutil/v1beta1/genesis.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/evmutil/types";
 

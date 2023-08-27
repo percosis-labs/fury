@@ -3,9 +3,9 @@ package fury.cdp.v1beta1;
 
 import "cosmos/base/v1beta1/coin.proto";
 import "cosmos_proto/cosmos.proto";
+import "fury/cdp/v1beta1/cdp.proto";
 import "gogoproto/gogo.proto";
 import "google/protobuf/timestamp.proto";
-import "fury/cdp/v1beta1/cdp.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/cdp/types";
 

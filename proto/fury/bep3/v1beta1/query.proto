@@ -4,10 +4,10 @@ package fury.bep3.v1beta1;
 import "cosmos/base/query/v1beta1/pagination.proto";
 import "cosmos/base/v1beta1/coin.proto";
 import "cosmos_proto/cosmos.proto";
+import "fury/bep3/v1beta1/bep3.proto";
 import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
 import "google/protobuf/duration.proto";
-import "fury/bep3/v1beta1/bep3.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/bep3/types";
 

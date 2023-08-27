@@ -5,9 +5,9 @@ import "cosmos/auth/v1beta1/auth.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
 import "cosmos/base/v1beta1/coin.proto";
 import "cosmos_proto/cosmos.proto";
+import "fury/jinx/v1beta1/jinx.proto";
 import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
-import "fury/jinx/v1beta1/jinx.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/jinx/types";
 

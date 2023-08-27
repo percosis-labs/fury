@@ -1,11 +1,11 @@
 syntax = "proto3";
 package fury.incentive.v1beta1;
 
-import "gogoproto/gogo.proto";
-import "google/api/annotations.proto";
 import "fury/incentive/v1beta1/apy.proto";
 import "fury/incentive/v1beta1/claims.proto";
 import "fury/incentive/v1beta1/params.proto";
+import "gogoproto/gogo.proto";
+import "google/api/annotations.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/incentive/types";
 

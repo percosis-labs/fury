@@ -1,8 +1,8 @@
 syntax = "proto3";
 package fury.pricefeed.v1beta1;
 
-import "gogoproto/gogo.proto";
 import "fury/pricefeed/v1beta1/store.proto";
+import "gogoproto/gogo.proto";
 
 option go_package = "github.com/percosis-labs/fury/x/pricefeed/types";
 option (gogoproto.equal_all) = true;
