@@ -44,7 +44,7 @@ import (
 
 const (
 	ChainID       = "furytest_1-1"
-	USDCCoinDenom = "erc20/usdc"
+	USDCCoinDenom = "erc20/weth"
 	USDCCDPType   = "erc20-usdc"
 )
 
@@ -341,7 +341,7 @@ func (suite *EIP712TestSuite) SetupTest() {
 			evmutiltypes.NewConversionPair(
 				// First contract evmutil module deploys
 				evmutiltestutil.MustNewInternalEVMAddressFromString("0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3"),
-				"erc20/usdc",
+				"erc20/weth",
 			),
 		)
 	suite.evmutilKeeper.SetParams(suite.ctx, evmutilParams)

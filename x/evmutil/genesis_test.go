@@ -40,7 +40,7 @@ func (s *genesisTestSuite) TestInitGenesis_SetAccounts() {
 func (s *genesisTestSuite) TestInitGenesis_SetParams() {
 	params := types.DefaultParams()
 	conversionPair := types.ConversionPair{
-		FuryERC20Address: testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2").Bytes(),
+		FuryERC20Address: testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D").Bytes(),
 		Denom:            "weth",
 	}
 	params.EnabledConversionPairs = []types.ConversionPair{conversionPair}
@@ -92,7 +92,7 @@ func (s *genesisTestSuite) TestExportGenesis() {
 	params := types.DefaultParams()
 	params.EnabledConversionPairs = []types.ConversionPair{
 		{
-			FuryERC20Address: testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2").Bytes(),
+			FuryERC20Address: testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D").Bytes(),
 			Denom:            "weth"},
 	}
 	params.AllowedCosmosDenoms = []types.AllowedCosmosCoinERC20Token{

@@ -276,66 +276,28 @@
   
     - [Msg](#fury.evmutil.v1beta1.Msg)
   
-- [fury/jinx/v1beta1/jinx.proto](#fury/jinx/v1beta1/jinx.proto)
-    - [Borrow](#fury.jinx.v1beta1.Borrow)
-    - [BorrowInterestFactor](#fury.jinx.v1beta1.BorrowInterestFactor)
-    - [BorrowLimit](#fury.jinx.v1beta1.BorrowLimit)
-    - [CoinsProto](#fury.jinx.v1beta1.CoinsProto)
-    - [Deposit](#fury.jinx.v1beta1.Deposit)
-    - [InterestRateModel](#fury.jinx.v1beta1.InterestRateModel)
-    - [MoneyMarket](#fury.jinx.v1beta1.MoneyMarket)
-    - [Params](#fury.jinx.v1beta1.Params)
-    - [SupplyInterestFactor](#fury.jinx.v1beta1.SupplyInterestFactor)
+- [fury/furydist/v1beta1/params.proto](#fury/furydist/v1beta1/params.proto)
+    - [CoreReward](#fury.furydist.v1beta1.CoreReward)
+    - [InfrastructureParams](#fury.furydist.v1beta1.InfrastructureParams)
+    - [Params](#fury.furydist.v1beta1.Params)
+    - [PartnerReward](#fury.furydist.v1beta1.PartnerReward)
+    - [Period](#fury.furydist.v1beta1.Period)
   
-- [fury/jinx/v1beta1/genesis.proto](#fury/jinx/v1beta1/genesis.proto)
-    - [GenesisAccumulationTime](#fury.jinx.v1beta1.GenesisAccumulationTime)
-    - [GenesisState](#fury.jinx.v1beta1.GenesisState)
+- [fury/furydist/v1beta1/genesis.proto](#fury/furydist/v1beta1/genesis.proto)
+    - [GenesisState](#fury.furydist.v1beta1.GenesisState)
   
-- [fury/jinx/v1beta1/query.proto](#fury/jinx/v1beta1/query.proto)
-    - [BorrowInterestFactorResponse](#fury.jinx.v1beta1.BorrowInterestFactorResponse)
-    - [BorrowResponse](#fury.jinx.v1beta1.BorrowResponse)
-    - [DepositResponse](#fury.jinx.v1beta1.DepositResponse)
-    - [InterestFactor](#fury.jinx.v1beta1.InterestFactor)
-    - [MoneyMarketInterestRate](#fury.jinx.v1beta1.MoneyMarketInterestRate)
-    - [QueryAccountsRequest](#fury.jinx.v1beta1.QueryAccountsRequest)
-    - [QueryAccountsResponse](#fury.jinx.v1beta1.QueryAccountsResponse)
-    - [QueryBorrowsRequest](#fury.jinx.v1beta1.QueryBorrowsRequest)
-    - [QueryBorrowsResponse](#fury.jinx.v1beta1.QueryBorrowsResponse)
-    - [QueryDepositsRequest](#fury.jinx.v1beta1.QueryDepositsRequest)
-    - [QueryDepositsResponse](#fury.jinx.v1beta1.QueryDepositsResponse)
-    - [QueryInterestFactorsRequest](#fury.jinx.v1beta1.QueryInterestFactorsRequest)
-    - [QueryInterestFactorsResponse](#fury.jinx.v1beta1.QueryInterestFactorsResponse)
-    - [QueryInterestRateRequest](#fury.jinx.v1beta1.QueryInterestRateRequest)
-    - [QueryInterestRateResponse](#fury.jinx.v1beta1.QueryInterestRateResponse)
-    - [QueryParamsRequest](#fury.jinx.v1beta1.QueryParamsRequest)
-    - [QueryParamsResponse](#fury.jinx.v1beta1.QueryParamsResponse)
-    - [QueryReservesRequest](#fury.jinx.v1beta1.QueryReservesRequest)
-    - [QueryReservesResponse](#fury.jinx.v1beta1.QueryReservesResponse)
-    - [QueryTotalBorrowedRequest](#fury.jinx.v1beta1.QueryTotalBorrowedRequest)
-    - [QueryTotalBorrowedResponse](#fury.jinx.v1beta1.QueryTotalBorrowedResponse)
-    - [QueryTotalDepositedRequest](#fury.jinx.v1beta1.QueryTotalDepositedRequest)
-    - [QueryTotalDepositedResponse](#fury.jinx.v1beta1.QueryTotalDepositedResponse)
-    - [QueryUnsyncedBorrowsRequest](#fury.jinx.v1beta1.QueryUnsyncedBorrowsRequest)
-    - [QueryUnsyncedBorrowsResponse](#fury.jinx.v1beta1.QueryUnsyncedBorrowsResponse)
-    - [QueryUnsyncedDepositsRequest](#fury.jinx.v1beta1.QueryUnsyncedDepositsRequest)
-    - [QueryUnsyncedDepositsResponse](#fury.jinx.v1beta1.QueryUnsyncedDepositsResponse)
-    - [SupplyInterestFactorResponse](#fury.jinx.v1beta1.SupplyInterestFactorResponse)
+- [fury/furydist/v1beta1/proposal.proto](#fury/furydist/v1beta1/proposal.proto)
+    - [CommunityPoolMultiSpendProposal](#fury.furydist.v1beta1.CommunityPoolMultiSpendProposal)
+    - [CommunityPoolMultiSpendProposalJSON](#fury.furydist.v1beta1.CommunityPoolMultiSpendProposalJSON)
+    - [MultiSpendRecipient](#fury.furydist.v1beta1.MultiSpendRecipient)
   
-    - [Query](#fury.jinx.v1beta1.Query)
+- [fury/furydist/v1beta1/query.proto](#fury/furydist/v1beta1/query.proto)
+    - [QueryBalanceRequest](#fury.furydist.v1beta1.QueryBalanceRequest)
+    - [QueryBalanceResponse](#fury.furydist.v1beta1.QueryBalanceResponse)
+    - [QueryParamsRequest](#fury.furydist.v1beta1.QueryParamsRequest)
+    - [QueryParamsResponse](#fury.furydist.v1beta1.QueryParamsResponse)
   
-- [fury/jinx/v1beta1/tx.proto](#fury/jinx/v1beta1/tx.proto)
-    - [MsgBorrow](#fury.jinx.v1beta1.MsgBorrow)
-    - [MsgBorrowResponse](#fury.jinx.v1beta1.MsgBorrowResponse)
-    - [MsgDeposit](#fury.jinx.v1beta1.MsgDeposit)
-    - [MsgDepositResponse](#fury.jinx.v1beta1.MsgDepositResponse)
-    - [MsgLiquidate](#fury.jinx.v1beta1.MsgLiquidate)
-    - [MsgLiquidateResponse](#fury.jinx.v1beta1.MsgLiquidateResponse)
-    - [MsgRepay](#fury.jinx.v1beta1.MsgRepay)
-    - [MsgRepayResponse](#fury.jinx.v1beta1.MsgRepayResponse)
-    - [MsgWithdraw](#fury.jinx.v1beta1.MsgWithdraw)
-    - [MsgWithdrawResponse](#fury.jinx.v1beta1.MsgWithdrawResponse)
-  
-    - [Msg](#fury.jinx.v1beta1.Msg)
+    - [Query](#fury.furydist.v1beta1.Query)
   
 - [fury/incentive/v1beta1/apy.proto](#fury/incentive/v1beta1/apy.proto)
     - [Apy](#fury.incentive.v1beta1.Apy)
@@ -422,28 +384,66 @@
   
     - [Msg](#fury.issuance.v1beta1.Msg)
   
-- [fury/furydist/v1beta1/params.proto](#fury/furydist/v1beta1/params.proto)
-    - [CoreReward](#fury.furydist.v1beta1.CoreReward)
-    - [InfrastructureParams](#fury.furydist.v1beta1.InfrastructureParams)
-    - [Params](#fury.furydist.v1beta1.Params)
-    - [PartnerReward](#fury.furydist.v1beta1.PartnerReward)
-    - [Period](#fury.furydist.v1beta1.Period)
+- [fury/jinx/v1beta1/jinx.proto](#fury/jinx/v1beta1/jinx.proto)
+    - [Borrow](#fury.jinx.v1beta1.Borrow)
+    - [BorrowInterestFactor](#fury.jinx.v1beta1.BorrowInterestFactor)
+    - [BorrowLimit](#fury.jinx.v1beta1.BorrowLimit)
+    - [CoinsProto](#fury.jinx.v1beta1.CoinsProto)
+    - [Deposit](#fury.jinx.v1beta1.Deposit)
+    - [InterestRateModel](#fury.jinx.v1beta1.InterestRateModel)
+    - [MoneyMarket](#fury.jinx.v1beta1.MoneyMarket)
+    - [Params](#fury.jinx.v1beta1.Params)
+    - [SupplyInterestFactor](#fury.jinx.v1beta1.SupplyInterestFactor)
   
-- [fury/furydist/v1beta1/genesis.proto](#fury/furydist/v1beta1/genesis.proto)
-    - [GenesisState](#fury.furydist.v1beta1.GenesisState)
+- [fury/jinx/v1beta1/genesis.proto](#fury/jinx/v1beta1/genesis.proto)
+    - [GenesisAccumulationTime](#fury.jinx.v1beta1.GenesisAccumulationTime)
+    - [GenesisState](#fury.jinx.v1beta1.GenesisState)
   
-- [fury/furydist/v1beta1/proposal.proto](#fury/furydist/v1beta1/proposal.proto)
-    - [CommunityPoolMultiSpendProposal](#fury.furydist.v1beta1.CommunityPoolMultiSpendProposal)
-    - [CommunityPoolMultiSpendProposalJSON](#fury.furydist.v1beta1.CommunityPoolMultiSpendProposalJSON)
-    - [MultiSpendRecipient](#fury.furydist.v1beta1.MultiSpendRecipient)
+- [fury/jinx/v1beta1/query.proto](#fury/jinx/v1beta1/query.proto)
+    - [BorrowInterestFactorResponse](#fury.jinx.v1beta1.BorrowInterestFactorResponse)
+    - [BorrowResponse](#fury.jinx.v1beta1.BorrowResponse)
+    - [DepositResponse](#fury.jinx.v1beta1.DepositResponse)
+    - [InterestFactor](#fury.jinx.v1beta1.InterestFactor)
+    - [MoneyMarketInterestRate](#fury.jinx.v1beta1.MoneyMarketInterestRate)
+    - [QueryAccountsRequest](#fury.jinx.v1beta1.QueryAccountsRequest)
+    - [QueryAccountsResponse](#fury.jinx.v1beta1.QueryAccountsResponse)
+    - [QueryBorrowsRequest](#fury.jinx.v1beta1.QueryBorrowsRequest)
+    - [QueryBorrowsResponse](#fury.jinx.v1beta1.QueryBorrowsResponse)
+    - [QueryDepositsRequest](#fury.jinx.v1beta1.QueryDepositsRequest)
+    - [QueryDepositsResponse](#fury.jinx.v1beta1.QueryDepositsResponse)
+    - [QueryInterestFactorsRequest](#fury.jinx.v1beta1.QueryInterestFactorsRequest)
+    - [QueryInterestFactorsResponse](#fury.jinx.v1beta1.QueryInterestFactorsResponse)
+    - [QueryInterestRateRequest](#fury.jinx.v1beta1.QueryInterestRateRequest)
+    - [QueryInterestRateResponse](#fury.jinx.v1beta1.QueryInterestRateResponse)
+    - [QueryParamsRequest](#fury.jinx.v1beta1.QueryParamsRequest)
+    - [QueryParamsResponse](#fury.jinx.v1beta1.QueryParamsResponse)
+    - [QueryReservesRequest](#fury.jinx.v1beta1.QueryReservesRequest)
+    - [QueryReservesResponse](#fury.jinx.v1beta1.QueryReservesResponse)
+    - [QueryTotalBorrowedRequest](#fury.jinx.v1beta1.QueryTotalBorrowedRequest)
+    - [QueryTotalBorrowedResponse](#fury.jinx.v1beta1.QueryTotalBorrowedResponse)
+    - [QueryTotalDepositedRequest](#fury.jinx.v1beta1.QueryTotalDepositedRequest)
+    - [QueryTotalDepositedResponse](#fury.jinx.v1beta1.QueryTotalDepositedResponse)
+    - [QueryUnsyncedBorrowsRequest](#fury.jinx.v1beta1.QueryUnsyncedBorrowsRequest)
+    - [QueryUnsyncedBorrowsResponse](#fury.jinx.v1beta1.QueryUnsyncedBorrowsResponse)
+    - [QueryUnsyncedDepositsRequest](#fury.jinx.v1beta1.QueryUnsyncedDepositsRequest)
+    - [QueryUnsyncedDepositsResponse](#fury.jinx.v1beta1.QueryUnsyncedDepositsResponse)
+    - [SupplyInterestFactorResponse](#fury.jinx.v1beta1.SupplyInterestFactorResponse)
   
-- [fury/furydist/v1beta1/query.proto](#fury/furydist/v1beta1/query.proto)
-    - [QueryBalanceRequest](#fury.furydist.v1beta1.QueryBalanceRequest)
-    - [QueryBalanceResponse](#fury.furydist.v1beta1.QueryBalanceResponse)
-    - [QueryParamsRequest](#fury.furydist.v1beta1.QueryParamsRequest)
-    - [QueryParamsResponse](#fury.furydist.v1beta1.QueryParamsResponse)
+    - [Query](#fury.jinx.v1beta1.Query)
   
-    - [Query](#fury.furydist.v1beta1.Query)
+- [fury/jinx/v1beta1/tx.proto](#fury/jinx/v1beta1/tx.proto)
+    - [MsgBorrow](#fury.jinx.v1beta1.MsgBorrow)
+    - [MsgBorrowResponse](#fury.jinx.v1beta1.MsgBorrowResponse)
+    - [MsgDeposit](#fury.jinx.v1beta1.MsgDeposit)
+    - [MsgDepositResponse](#fury.jinx.v1beta1.MsgDepositResponse)
+    - [MsgLiquidate](#fury.jinx.v1beta1.MsgLiquidate)
+    - [MsgLiquidateResponse](#fury.jinx.v1beta1.MsgLiquidateResponse)
+    - [MsgRepay](#fury.jinx.v1beta1.MsgRepay)
+    - [MsgRepayResponse](#fury.jinx.v1beta1.MsgRepayResponse)
+    - [MsgWithdraw](#fury.jinx.v1beta1.MsgWithdraw)
+    - [MsgWithdrawResponse](#fury.jinx.v1beta1.MsgWithdrawResponse)
+  
+    - [Msg](#fury.jinx.v1beta1.Msg)
   
 - [fury/liquid/v1beta1/query.proto](#fury/liquid/v1beta1/query.proto)
     - [QueryDelegatedBalanceRequest](#fury.liquid.v1beta1.QueryDelegatedBalanceRequest)
@@ -4016,67 +4016,227 @@ Msg defines the evmutil Msg service.
 
 
 
-<a name="fury/jinx/v1beta1/jinx.proto"></a>
+<a name="fury/furydist/v1beta1/params.proto"></a>
 <p align="right"><a href="#top">Top</a></p>
 
-## fury/jinx/v1beta1/jinx.proto
+## fury/furydist/v1beta1/params.proto
 
 
 
-<a name="fury.jinx.v1beta1.Borrow"></a>
+<a name="fury.furydist.v1beta1.CoreReward"></a>
 
-### Borrow
-Borrow defines an amount of coins borrowed from a jinx module account.
+### CoreReward
+CoreReward defines the reward weights for core infrastructure providers.
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| `borrower` | [string](#string) |  |  |
+| `address` | [bytes](#bytes) |  |  |
+| `weight` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.furydist.v1beta1.InfrastructureParams"></a>
+
+### InfrastructureParams
+InfrastructureParams define the parameters for infrastructure rewards.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `infrastructure_periods` | [Period](#fury.furydist.v1beta1.Period) | repeated |  |
+| `core_rewards` | [CoreReward](#fury.furydist.v1beta1.CoreReward) | repeated |  |
+| `partner_rewards` | [PartnerReward](#fury.furydist.v1beta1.PartnerReward) | repeated |  |
+
+
+
+
+
+
+<a name="fury.furydist.v1beta1.Params"></a>
+
+### Params
+Params governance parameters for furydist module
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `active` | [bool](#bool) |  |  |
+| `periods` | [Period](#fury.furydist.v1beta1.Period) | repeated |  |
+| `infrastructure_params` | [InfrastructureParams](#fury.furydist.v1beta1.InfrastructureParams) |  |  |
+
+
+
+
+
+
+<a name="fury.furydist.v1beta1.PartnerReward"></a>
+
+### PartnerReward
+PartnerRewards defines the reward schedule for partner infrastructure providers.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `address` | [bytes](#bytes) |  |  |
+| `rewards_per_second` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) |  |  |
+
+
+
+
+
+
+<a name="fury.furydist.v1beta1.Period"></a>
+
+### Period
+Period stores the specified start and end dates, and the inflation, expressed as a decimal
+representing the yearly APR of FURY tokens that will be minted during that period
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `start` | [google.protobuf.Timestamp](#google.protobuf.Timestamp) |  | example "2020-03-01T15:20:00Z" |
+| `end` | [google.protobuf.Timestamp](#google.protobuf.Timestamp) |  | example "2020-06-01T15:20:00Z" |
+| `inflation` | [bytes](#bytes) |  | example "1.000000003022265980" - 10% inflation |
+
+
+
+
+
+ <!-- end messages -->
+
+ <!-- end enums -->
+
+ <!-- end HasExtensions -->
+
+ <!-- end services -->
+
+
+
+<a name="fury/furydist/v1beta1/genesis.proto"></a>
+<p align="right"><a href="#top">Top</a></p>
+
+## fury/furydist/v1beta1/genesis.proto
+
+
+
+<a name="fury.furydist.v1beta1.GenesisState"></a>
+
+### GenesisState
+GenesisState defines the furydist module's genesis state.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `params` | [Params](#fury.furydist.v1beta1.Params) |  |  |
+| `previous_block_time` | [google.protobuf.Timestamp](#google.protobuf.Timestamp) |  |  |
+
+
+
+
+
+ <!-- end messages -->
+
+ <!-- end enums -->
+
+ <!-- end HasExtensions -->
+
+ <!-- end services -->
+
+
+
+<a name="fury/furydist/v1beta1/proposal.proto"></a>
+<p align="right"><a href="#top">Top</a></p>
+
+## fury/furydist/v1beta1/proposal.proto
+
+
+
+<a name="fury.furydist.v1beta1.CommunityPoolMultiSpendProposal"></a>
+
+### CommunityPoolMultiSpendProposal
+CommunityPoolMultiSpendProposal spends from the community pool by sending to one or more
+addresses
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `title` | [string](#string) |  |  |
+| `description` | [string](#string) |  |  |
+| `recipient_list` | [MultiSpendRecipient](#fury.furydist.v1beta1.MultiSpendRecipient) | repeated |  |
+
+
+
+
+
+
+<a name="fury.furydist.v1beta1.CommunityPoolMultiSpendProposalJSON"></a>
+
+### CommunityPoolMultiSpendProposalJSON
+CommunityPoolMultiSpendProposalJSON defines a CommunityPoolMultiSpendProposal with a deposit
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `title` | [string](#string) |  |  |
+| `description` | [string](#string) |  |  |
+| `recipient_list` | [MultiSpendRecipient](#fury.furydist.v1beta1.MultiSpendRecipient) | repeated |  |
+| `deposit` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+
+
+
+
+
+
+<a name="fury.furydist.v1beta1.MultiSpendRecipient"></a>
+
+### MultiSpendRecipient
+MultiSpendRecipient defines a recipient and the amount of coins they are receiving
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `address` | [string](#string) |  |  |
 | `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-| `index` | [BorrowInterestFactor](#fury.jinx.v1beta1.BorrowInterestFactor) | repeated |  |
+
+
+
+
+
+ <!-- end messages -->
+
+ <!-- end enums -->
+
+ <!-- end HasExtensions -->
+
+ <!-- end services -->
+
+
+
+<a name="fury/furydist/v1beta1/query.proto"></a>
+<p align="right"><a href="#top">Top</a></p>
+
+## fury/furydist/v1beta1/query.proto
+
+
+
+<a name="fury.furydist.v1beta1.QueryBalanceRequest"></a>
+
+### QueryBalanceRequest
+QueryBalanceRequest defines the request type for querying x/furydist balance.
 
 
 
 
 
 
-<a name="fury.jinx.v1beta1.BorrowInterestFactor"></a>
+<a name="fury.furydist.v1beta1.QueryBalanceResponse"></a>
 
-### BorrowInterestFactor
-BorrowInterestFactor defines an individual borrow interest factor.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-| `value` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.BorrowLimit"></a>
-
-### BorrowLimit
-BorrowLimit enforces restrictions on a money market.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `has_max_limit` | [bool](#bool) |  |  |
-| `maximum_limit` | [string](#string) |  |  |
-| `loan_to_value` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.CoinsProto"></a>
-
-### CoinsProto
-CoinsProto defines a Protobuf wrapper around a Coins slice
+### QueryBalanceResponse
+QueryBalanceResponse defines the response type for querying x/furydist balance.
 
 
 | Field | Type | Label | Description |
@@ -4088,591 +4248,25 @@ CoinsProto defines a Protobuf wrapper around a Coins slice
 
 
 
-<a name="fury.jinx.v1beta1.Deposit"></a>
-
-### Deposit
-Deposit defines an amount of coins deposited into a jinx module account.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `depositor` | [string](#string) |  |  |
-| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-| `index` | [SupplyInterestFactor](#fury.jinx.v1beta1.SupplyInterestFactor) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.InterestRateModel"></a>
-
-### InterestRateModel
-InterestRateModel contains information about an asset's interest rate.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `base_rate_apy` | [string](#string) |  |  |
-| `base_multiplier` | [string](#string) |  |  |
-| `kink` | [string](#string) |  |  |
-| `jump_multiplier` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.MoneyMarket"></a>
-
-### MoneyMarket
-MoneyMarket is a money market for an individual asset.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-| `borrow_limit` | [BorrowLimit](#fury.jinx.v1beta1.BorrowLimit) |  |  |
-| `spot_market_id` | [string](#string) |  |  |
-| `conversion_factor` | [string](#string) |  |  |
-| `interest_rate_model` | [InterestRateModel](#fury.jinx.v1beta1.InterestRateModel) |  |  |
-| `reserve_factor` | [string](#string) |  |  |
-| `keeper_reward_percentage` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.Params"></a>
-
-### Params
-Params defines the parameters for the jinx module.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `money_markets` | [MoneyMarket](#fury.jinx.v1beta1.MoneyMarket) | repeated |  |
-| `minimum_borrow_usd_value` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.SupplyInterestFactor"></a>
-
-### SupplyInterestFactor
-SupplyInterestFactor defines an individual borrow interest factor.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-| `value` | [string](#string) |  |  |
-
-
-
-
-
- <!-- end messages -->
-
- <!-- end enums -->
-
- <!-- end HasExtensions -->
-
- <!-- end services -->
-
-
-
-<a name="fury/jinx/v1beta1/genesis.proto"></a>
-<p align="right"><a href="#top">Top</a></p>
-
-## fury/jinx/v1beta1/genesis.proto
-
-
-
-<a name="fury.jinx.v1beta1.GenesisAccumulationTime"></a>
-
-### GenesisAccumulationTime
-GenesisAccumulationTime stores the previous distribution time and its corresponding denom.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `collateral_type` | [string](#string) |  |  |
-| `previous_accumulation_time` | [google.protobuf.Timestamp](#google.protobuf.Timestamp) |  |  |
-| `supply_interest_factor` | [string](#string) |  |  |
-| `borrow_interest_factor` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.GenesisState"></a>
-
-### GenesisState
-GenesisState defines the jinx module's genesis state.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `params` | [Params](#fury.jinx.v1beta1.Params) |  |  |
-| `previous_accumulation_times` | [GenesisAccumulationTime](#fury.jinx.v1beta1.GenesisAccumulationTime) | repeated |  |
-| `deposits` | [Deposit](#fury.jinx.v1beta1.Deposit) | repeated |  |
-| `borrows` | [Borrow](#fury.jinx.v1beta1.Borrow) | repeated |  |
-| `total_supplied` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-| `total_borrowed` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-| `total_reserves` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-
-
-
-
-
- <!-- end messages -->
-
- <!-- end enums -->
-
- <!-- end HasExtensions -->
-
- <!-- end services -->
-
-
-
-<a name="fury/jinx/v1beta1/query.proto"></a>
-<p align="right"><a href="#top">Top</a></p>
-
-## fury/jinx/v1beta1/query.proto
-
-
-
-<a name="fury.jinx.v1beta1.BorrowInterestFactorResponse"></a>
-
-### BorrowInterestFactorResponse
-BorrowInterestFactorResponse defines an individual borrow interest factor.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-| `value` | [string](#string) |  | sdk.Dec as string |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.BorrowResponse"></a>
-
-### BorrowResponse
-BorrowResponse defines an amount of coins borrowed from a jinx module account.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `borrower` | [string](#string) |  |  |
-| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-| `index` | [BorrowInterestFactorResponse](#fury.jinx.v1beta1.BorrowInterestFactorResponse) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.DepositResponse"></a>
-
-### DepositResponse
-DepositResponse defines an amount of coins deposited into a jinx module account.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `depositor` | [string](#string) |  |  |
-| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-| `index` | [SupplyInterestFactorResponse](#fury.jinx.v1beta1.SupplyInterestFactorResponse) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.InterestFactor"></a>
-
-### InterestFactor
-InterestFactor is a unique type returned by interest factor queries
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-| `borrow_interest_factor` | [string](#string) |  | sdk.Dec as String |
-| `supply_interest_factor` | [string](#string) |  | sdk.Dec as String |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.MoneyMarketInterestRate"></a>
-
-### MoneyMarketInterestRate
-MoneyMarketInterestRate is a unique type returned by interest rate queries
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-| `supply_interest_rate` | [string](#string) |  | sdk.Dec as String |
-| `borrow_interest_rate` | [string](#string) |  | sdk.Dec as String |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryAccountsRequest"></a>
-
-### QueryAccountsRequest
-QueryAccountsRequest is the request type for the Query/Accounts RPC method.
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryAccountsResponse"></a>
-
-### QueryAccountsResponse
-QueryAccountsResponse is the response type for the Query/Accounts RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `accounts` | [cosmos.auth.v1beta1.ModuleAccount](#cosmos.auth.v1beta1.ModuleAccount) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryBorrowsRequest"></a>
-
-### QueryBorrowsRequest
-QueryBorrowsRequest is the request type for the Query/Borrows RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-| `owner` | [string](#string) |  |  |
-| `pagination` | [cosmos.base.query.v1beta1.PageRequest](#cosmos.base.query.v1beta1.PageRequest) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryBorrowsResponse"></a>
-
-### QueryBorrowsResponse
-QueryBorrowsResponse is the response type for the Query/Borrows RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `borrows` | [BorrowResponse](#fury.jinx.v1beta1.BorrowResponse) | repeated |  |
-| `pagination` | [cosmos.base.query.v1beta1.PageResponse](#cosmos.base.query.v1beta1.PageResponse) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryDepositsRequest"></a>
-
-### QueryDepositsRequest
-QueryDepositsRequest is the request type for the Query/Deposits RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-| `owner` | [string](#string) |  |  |
-| `pagination` | [cosmos.base.query.v1beta1.PageRequest](#cosmos.base.query.v1beta1.PageRequest) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryDepositsResponse"></a>
-
-### QueryDepositsResponse
-QueryDepositsResponse is the response type for the Query/Deposits RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `deposits` | [DepositResponse](#fury.jinx.v1beta1.DepositResponse) | repeated |  |
-| `pagination` | [cosmos.base.query.v1beta1.PageResponse](#cosmos.base.query.v1beta1.PageResponse) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryInterestFactorsRequest"></a>
-
-### QueryInterestFactorsRequest
-QueryInterestFactorsRequest is the request type for the Query/InterestFactors RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryInterestFactorsResponse"></a>
-
-### QueryInterestFactorsResponse
-QueryInterestFactorsResponse is the response type for the Query/InterestFactors RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `interest_factors` | [InterestFactor](#fury.jinx.v1beta1.InterestFactor) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryInterestRateRequest"></a>
-
-### QueryInterestRateRequest
-QueryInterestRateRequest is the request type for the Query/InterestRate RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryInterestRateResponse"></a>
-
-### QueryInterestRateResponse
-QueryInterestRateResponse is the response type for the Query/InterestRate RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `interest_rates` | [MoneyMarketInterestRate](#fury.jinx.v1beta1.MoneyMarketInterestRate) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryParamsRequest"></a>
+<a name="fury.furydist.v1beta1.QueryParamsRequest"></a>
 
 ### QueryParamsRequest
-QueryParamsRequest is the request type for the Query/Params RPC method.
+QueryParamsRequest defines the request type for querying x/furydist parameters.
 
 
 
 
 
 
-<a name="fury.jinx.v1beta1.QueryParamsResponse"></a>
+<a name="fury.furydist.v1beta1.QueryParamsResponse"></a>
 
 ### QueryParamsResponse
-QueryParamsResponse is the response type for the Query/Params RPC method.
+QueryParamsResponse defines the response type for querying x/furydist parameters.
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| `params` | [Params](#fury.jinx.v1beta1.Params) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryReservesRequest"></a>
-
-### QueryReservesRequest
-QueryReservesRequest is the request type for the Query/Reserves RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryReservesResponse"></a>
-
-### QueryReservesResponse
-QueryReservesResponse is the response type for the Query/Reserves RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryTotalBorrowedRequest"></a>
-
-### QueryTotalBorrowedRequest
-QueryTotalBorrowedRequest is the request type for the Query/TotalBorrowed RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryTotalBorrowedResponse"></a>
-
-### QueryTotalBorrowedResponse
-QueryTotalBorrowedResponse is the response type for the Query/TotalBorrowed RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `borrowed_coins` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryTotalDepositedRequest"></a>
-
-### QueryTotalDepositedRequest
-QueryTotalDepositedRequest is the request type for the Query/TotalDeposited RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryTotalDepositedResponse"></a>
-
-### QueryTotalDepositedResponse
-QueryTotalDepositedResponse is the response type for the Query/TotalDeposited RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `supplied_coins` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryUnsyncedBorrowsRequest"></a>
-
-### QueryUnsyncedBorrowsRequest
-QueryUnsyncedBorrowsRequest is the request type for the Query/UnsyncedBorrows RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-| `owner` | [string](#string) |  |  |
-| `pagination` | [cosmos.base.query.v1beta1.PageRequest](#cosmos.base.query.v1beta1.PageRequest) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryUnsyncedBorrowsResponse"></a>
-
-### QueryUnsyncedBorrowsResponse
-QueryUnsyncedBorrowsResponse is the response type for the Query/UnsyncedBorrows RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `borrows` | [BorrowResponse](#fury.jinx.v1beta1.BorrowResponse) | repeated |  |
-| `pagination` | [cosmos.base.query.v1beta1.PageResponse](#cosmos.base.query.v1beta1.PageResponse) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryUnsyncedDepositsRequest"></a>
-
-### QueryUnsyncedDepositsRequest
-QueryUnsyncedDepositsRequest is the request type for the Query/UnsyncedDeposits RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-| `owner` | [string](#string) |  |  |
-| `pagination` | [cosmos.base.query.v1beta1.PageRequest](#cosmos.base.query.v1beta1.PageRequest) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.QueryUnsyncedDepositsResponse"></a>
-
-### QueryUnsyncedDepositsResponse
-QueryUnsyncedDepositsResponse is the response type for the Query/UnsyncedDeposits RPC method.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `deposits` | [DepositResponse](#fury.jinx.v1beta1.DepositResponse) | repeated |  |
-| `pagination` | [cosmos.base.query.v1beta1.PageResponse](#cosmos.base.query.v1beta1.PageResponse) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.SupplyInterestFactorResponse"></a>
-
-### SupplyInterestFactorResponse
-SupplyInterestFactorResponse defines an individual borrow interest factor.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `denom` | [string](#string) |  |  |
-| `value` | [string](#string) |  | sdk.Dec as string |
+| `params` | [Params](#fury.furydist.v1beta1.Params) |  |  |
 
 
 
@@ -4685,185 +4279,15 @@ SupplyInterestFactorResponse defines an individual borrow interest factor.
  <!-- end HasExtensions -->
 
 
-<a name="fury.jinx.v1beta1.Query"></a>
+<a name="fury.furydist.v1beta1.Query"></a>
 
 ### Query
-Query defines the gRPC querier service for bep3 module.
+Query defines the gRPC querier service.
 
 | Method Name | Request Type | Response Type | Description | HTTP Verb | Endpoint |
 | ----------- | ------------ | ------------- | ------------| ------- | -------- |
-| `Params` | [QueryParamsRequest](#fury.jinx.v1beta1.QueryParamsRequest) | [QueryParamsResponse](#fury.jinx.v1beta1.QueryParamsResponse) | Params queries module params. | GET|/fury/jinx/v1beta1/params|
-| `Accounts` | [QueryAccountsRequest](#fury.jinx.v1beta1.QueryAccountsRequest) | [QueryAccountsResponse](#fury.jinx.v1beta1.QueryAccountsResponse) | Accounts queries module accounts. | GET|/fury/jinx/v1beta1/accounts|
-| `Deposits` | [QueryDepositsRequest](#fury.jinx.v1beta1.QueryDepositsRequest) | [QueryDepositsResponse](#fury.jinx.v1beta1.QueryDepositsResponse) | Deposits queries jinx deposits. | GET|/fury/jinx/v1beta1/deposits|
-| `UnsyncedDeposits` | [QueryUnsyncedDepositsRequest](#fury.jinx.v1beta1.QueryUnsyncedDepositsRequest) | [QueryUnsyncedDepositsResponse](#fury.jinx.v1beta1.QueryUnsyncedDepositsResponse) | UnsyncedDeposits queries unsynced deposits. | GET|/fury/jinx/v1beta1/unsynced-deposits|
-| `TotalDeposited` | [QueryTotalDepositedRequest](#fury.jinx.v1beta1.QueryTotalDepositedRequest) | [QueryTotalDepositedResponse](#fury.jinx.v1beta1.QueryTotalDepositedResponse) | TotalDeposited queries total coins deposited to jinx liquidity pools. | GET|/fury/jinx/v1beta1/total-deposited|
-| `Borrows` | [QueryBorrowsRequest](#fury.jinx.v1beta1.QueryBorrowsRequest) | [QueryBorrowsResponse](#fury.jinx.v1beta1.QueryBorrowsResponse) | Borrows queries jinx borrows. | GET|/fury/jinx/v1beta1/borrows|
-| `UnsyncedBorrows` | [QueryUnsyncedBorrowsRequest](#fury.jinx.v1beta1.QueryUnsyncedBorrowsRequest) | [QueryUnsyncedBorrowsResponse](#fury.jinx.v1beta1.QueryUnsyncedBorrowsResponse) | UnsyncedBorrows queries unsynced borrows. | GET|/fury/jinx/v1beta1/unsynced-borrows|
-| `TotalBorrowed` | [QueryTotalBorrowedRequest](#fury.jinx.v1beta1.QueryTotalBorrowedRequest) | [QueryTotalBorrowedResponse](#fury.jinx.v1beta1.QueryTotalBorrowedResponse) | TotalBorrowed queries total coins borrowed from jinx liquidity pools. | GET|/fury/jinx/v1beta1/total-borrowed|
-| `InterestRate` | [QueryInterestRateRequest](#fury.jinx.v1beta1.QueryInterestRateRequest) | [QueryInterestRateResponse](#fury.jinx.v1beta1.QueryInterestRateResponse) | InterestRate queries the jinx module interest rates. | GET|/fury/jinx/v1beta1/interest-rate|
-| `Reserves` | [QueryReservesRequest](#fury.jinx.v1beta1.QueryReservesRequest) | [QueryReservesResponse](#fury.jinx.v1beta1.QueryReservesResponse) | Reserves queries total jinx reserve coins. | GET|/fury/jinx/v1beta1/reserves|
-| `InterestFactors` | [QueryInterestFactorsRequest](#fury.jinx.v1beta1.QueryInterestFactorsRequest) | [QueryInterestFactorsResponse](#fury.jinx.v1beta1.QueryInterestFactorsResponse) | InterestFactors queries jinx module interest factors. | GET|/fury/jinx/v1beta1/interest-factors|
-
- <!-- end services -->
-
-
-
-<a name="fury/jinx/v1beta1/tx.proto"></a>
-<p align="right"><a href="#top">Top</a></p>
-
-## fury/jinx/v1beta1/tx.proto
-
-
-
-<a name="fury.jinx.v1beta1.MsgBorrow"></a>
-
-### MsgBorrow
-MsgBorrow defines the Msg/Borrow request type.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `borrower` | [string](#string) |  |  |
-| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.MsgBorrowResponse"></a>
-
-### MsgBorrowResponse
-MsgBorrowResponse defines the Msg/Borrow response type.
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.MsgDeposit"></a>
-
-### MsgDeposit
-MsgDeposit defines the Msg/Deposit request type.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `depositor` | [string](#string) |  |  |
-| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.MsgDepositResponse"></a>
-
-### MsgDepositResponse
-MsgDepositResponse defines the Msg/Deposit response type.
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.MsgLiquidate"></a>
-
-### MsgLiquidate
-MsgLiquidate defines the Msg/Liquidate request type.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `keeper` | [string](#string) |  |  |
-| `borrower` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.MsgLiquidateResponse"></a>
-
-### MsgLiquidateResponse
-MsgLiquidateResponse defines the Msg/Liquidate response type.
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.MsgRepay"></a>
-
-### MsgRepay
-MsgRepay defines the Msg/Repay request type.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `sender` | [string](#string) |  |  |
-| `owner` | [string](#string) |  |  |
-| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.MsgRepayResponse"></a>
-
-### MsgRepayResponse
-MsgRepayResponse defines the Msg/Repay response type.
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.MsgWithdraw"></a>
-
-### MsgWithdraw
-MsgWithdraw defines the Msg/Withdraw request type.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `depositor` | [string](#string) |  |  |
-| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-
-
-
-
-
-
-<a name="fury.jinx.v1beta1.MsgWithdrawResponse"></a>
-
-### MsgWithdrawResponse
-MsgWithdrawResponse defines the Msg/Withdraw response type.
-
-
-
-
-
- <!-- end messages -->
-
- <!-- end enums -->
-
- <!-- end HasExtensions -->
-
-
-<a name="fury.jinx.v1beta1.Msg"></a>
-
-### Msg
-Msg defines the jinx Msg service.
-
-| Method Name | Request Type | Response Type | Description | HTTP Verb | Endpoint |
-| ----------- | ------------ | ------------- | ------------| ------- | -------- |
-| `Deposit` | [MsgDeposit](#fury.jinx.v1beta1.MsgDeposit) | [MsgDepositResponse](#fury.jinx.v1beta1.MsgDepositResponse) | Deposit defines a method for depositing funds to jinx liquidity pool. | |
-| `Withdraw` | [MsgWithdraw](#fury.jinx.v1beta1.MsgWithdraw) | [MsgWithdrawResponse](#fury.jinx.v1beta1.MsgWithdrawResponse) | Withdraw defines a method for withdrawing funds from jinx liquidity pool. | |
-| `Borrow` | [MsgBorrow](#fury.jinx.v1beta1.MsgBorrow) | [MsgBorrowResponse](#fury.jinx.v1beta1.MsgBorrowResponse) | Borrow defines a method for borrowing funds from jinx liquidity pool. | |
-| `Repay` | [MsgRepay](#fury.jinx.v1beta1.MsgRepay) | [MsgRepayResponse](#fury.jinx.v1beta1.MsgRepayResponse) | Repay defines a method for repaying funds borrowed from jinx liquidity pool. | |
-| `Liquidate` | [MsgLiquidate](#fury.jinx.v1beta1.MsgLiquidate) | [MsgLiquidateResponse](#fury.jinx.v1beta1.MsgLiquidateResponse) | Liquidate defines a method for attempting to liquidate a borrower that is over their loan-to-value. | |
+| `Params` | [QueryParamsRequest](#fury.furydist.v1beta1.QueryParamsRequest) | [QueryParamsResponse](#fury.furydist.v1beta1.QueryParamsResponse) | Params queries the parameters of x/furydist module. | GET|/fury/furydist/v1beta1/parameters|
+| `Balance` | [QueryBalanceRequest](#fury.furydist.v1beta1.QueryBalanceRequest) | [QueryBalanceResponse](#fury.furydist.v1beta1.QueryBalanceResponse) | Balance queries the balance of all coins of x/furydist module. | GET|/fury/furydist/v1beta1/balance|
 
  <!-- end services -->
 
@@ -5962,227 +5386,67 @@ Msg defines the issuance Msg service.
 
 
 
-<a name="fury/furydist/v1beta1/params.proto"></a>
+<a name="fury/jinx/v1beta1/jinx.proto"></a>
 <p align="right"><a href="#top">Top</a></p>
 
-## fury/furydist/v1beta1/params.proto
+## fury/jinx/v1beta1/jinx.proto
 
 
 
-<a name="fury.furydist.v1beta1.CoreReward"></a>
+<a name="fury.jinx.v1beta1.Borrow"></a>
 
-### CoreReward
-CoreReward defines the reward weights for core infrastructure providers.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `address` | [bytes](#bytes) |  |  |
-| `weight` | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="fury.furydist.v1beta1.InfrastructureParams"></a>
-
-### InfrastructureParams
-InfrastructureParams define the parameters for infrastructure rewards.
+### Borrow
+Borrow defines an amount of coins borrowed from a jinx module account.
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| `infrastructure_periods` | [Period](#fury.furydist.v1beta1.Period) | repeated |  |
-| `core_rewards` | [CoreReward](#fury.furydist.v1beta1.CoreReward) | repeated |  |
-| `partner_rewards` | [PartnerReward](#fury.furydist.v1beta1.PartnerReward) | repeated |  |
-
-
-
-
-
-
-<a name="fury.furydist.v1beta1.Params"></a>
-
-### Params
-Params governance parameters for furydist module
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `active` | [bool](#bool) |  |  |
-| `periods` | [Period](#fury.furydist.v1beta1.Period) | repeated |  |
-| `infrastructure_params` | [InfrastructureParams](#fury.furydist.v1beta1.InfrastructureParams) |  |  |
-
-
-
-
-
-
-<a name="fury.furydist.v1beta1.PartnerReward"></a>
-
-### PartnerReward
-PartnerRewards defines the reward schedule for partner infrastructure providers.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `address` | [bytes](#bytes) |  |  |
-| `rewards_per_second` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) |  |  |
-
-
-
-
-
-
-<a name="fury.furydist.v1beta1.Period"></a>
-
-### Period
-Period stores the specified start and end dates, and the inflation, expressed as a decimal
-representing the yearly APR of FURY tokens that will be minted during that period
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `start` | [google.protobuf.Timestamp](#google.protobuf.Timestamp) |  | example "2020-03-01T15:20:00Z" |
-| `end` | [google.protobuf.Timestamp](#google.protobuf.Timestamp) |  | example "2020-06-01T15:20:00Z" |
-| `inflation` | [bytes](#bytes) |  | example "1.000000003022265980" - 10% inflation |
-
-
-
-
-
- <!-- end messages -->
-
- <!-- end enums -->
-
- <!-- end HasExtensions -->
-
- <!-- end services -->
-
-
-
-<a name="fury/furydist/v1beta1/genesis.proto"></a>
-<p align="right"><a href="#top">Top</a></p>
-
-## fury/furydist/v1beta1/genesis.proto
-
-
-
-<a name="fury.furydist.v1beta1.GenesisState"></a>
-
-### GenesisState
-GenesisState defines the furydist module's genesis state.
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `params` | [Params](#fury.furydist.v1beta1.Params) |  |  |
-| `previous_block_time` | [google.protobuf.Timestamp](#google.protobuf.Timestamp) |  |  |
-
-
-
-
-
- <!-- end messages -->
-
- <!-- end enums -->
-
- <!-- end HasExtensions -->
-
- <!-- end services -->
-
-
-
-<a name="fury/furydist/v1beta1/proposal.proto"></a>
-<p align="right"><a href="#top">Top</a></p>
-
-## fury/furydist/v1beta1/proposal.proto
-
-
-
-<a name="fury.furydist.v1beta1.CommunityPoolMultiSpendProposal"></a>
-
-### CommunityPoolMultiSpendProposal
-CommunityPoolMultiSpendProposal spends from the community pool by sending to one or more
-addresses
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `title` | [string](#string) |  |  |
-| `description` | [string](#string) |  |  |
-| `recipient_list` | [MultiSpendRecipient](#fury.furydist.v1beta1.MultiSpendRecipient) | repeated |  |
-
-
-
-
-
-
-<a name="fury.furydist.v1beta1.CommunityPoolMultiSpendProposalJSON"></a>
-
-### CommunityPoolMultiSpendProposalJSON
-CommunityPoolMultiSpendProposalJSON defines a CommunityPoolMultiSpendProposal with a deposit
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `title` | [string](#string) |  |  |
-| `description` | [string](#string) |  |  |
-| `recipient_list` | [MultiSpendRecipient](#fury.furydist.v1beta1.MultiSpendRecipient) | repeated |  |
-| `deposit` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-
-
-
-
-
-
-<a name="fury.furydist.v1beta1.MultiSpendRecipient"></a>
-
-### MultiSpendRecipient
-MultiSpendRecipient defines a recipient and the amount of coins they are receiving
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| `address` | [string](#string) |  |  |
+| `borrower` | [string](#string) |  |  |
 | `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
-
-
-
-
-
- <!-- end messages -->
-
- <!-- end enums -->
-
- <!-- end HasExtensions -->
-
- <!-- end services -->
-
-
-
-<a name="fury/furydist/v1beta1/query.proto"></a>
-<p align="right"><a href="#top">Top</a></p>
-
-## fury/furydist/v1beta1/query.proto
-
-
-
-<a name="fury.furydist.v1beta1.QueryBalanceRequest"></a>
-
-### QueryBalanceRequest
-QueryBalanceRequest defines the request type for querying x/furydist balance.
+| `index` | [BorrowInterestFactor](#fury.jinx.v1beta1.BorrowInterestFactor) | repeated |  |
 
 
 
 
 
 
-<a name="fury.furydist.v1beta1.QueryBalanceResponse"></a>
+<a name="fury.jinx.v1beta1.BorrowInterestFactor"></a>
 
-### QueryBalanceResponse
-QueryBalanceResponse defines the response type for querying x/furydist balance.
+### BorrowInterestFactor
+BorrowInterestFactor defines an individual borrow interest factor.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+| `value` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.BorrowLimit"></a>
+
+### BorrowLimit
+BorrowLimit enforces restrictions on a money market.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `has_max_limit` | [bool](#bool) |  |  |
+| `maximum_limit` | [string](#string) |  |  |
+| `loan_to_value` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.CoinsProto"></a>
+
+### CoinsProto
+CoinsProto defines a Protobuf wrapper around a Coins slice
 
 
 | Field | Type | Label | Description |
@@ -6194,25 +5458,591 @@ QueryBalanceResponse defines the response type for querying x/furydist balance.
 
 
 
-<a name="fury.furydist.v1beta1.QueryParamsRequest"></a>
+<a name="fury.jinx.v1beta1.Deposit"></a>
 
-### QueryParamsRequest
-QueryParamsRequest defines the request type for querying x/furydist parameters.
-
-
-
-
-
-
-<a name="fury.furydist.v1beta1.QueryParamsResponse"></a>
-
-### QueryParamsResponse
-QueryParamsResponse defines the response type for querying x/furydist parameters.
+### Deposit
+Deposit defines an amount of coins deposited into a jinx module account.
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| `params` | [Params](#fury.furydist.v1beta1.Params) |  |  |
+| `depositor` | [string](#string) |  |  |
+| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+| `index` | [SupplyInterestFactor](#fury.jinx.v1beta1.SupplyInterestFactor) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.InterestRateModel"></a>
+
+### InterestRateModel
+InterestRateModel contains information about an asset's interest rate.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `base_rate_apy` | [string](#string) |  |  |
+| `base_multiplier` | [string](#string) |  |  |
+| `kink` | [string](#string) |  |  |
+| `jump_multiplier` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.MoneyMarket"></a>
+
+### MoneyMarket
+MoneyMarket is a money market for an individual asset.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+| `borrow_limit` | [BorrowLimit](#fury.jinx.v1beta1.BorrowLimit) |  |  |
+| `spot_market_id` | [string](#string) |  |  |
+| `conversion_factor` | [string](#string) |  |  |
+| `interest_rate_model` | [InterestRateModel](#fury.jinx.v1beta1.InterestRateModel) |  |  |
+| `reserve_factor` | [string](#string) |  |  |
+| `keeper_reward_percentage` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.Params"></a>
+
+### Params
+Params defines the parameters for the jinx module.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `money_markets` | [MoneyMarket](#fury.jinx.v1beta1.MoneyMarket) | repeated |  |
+| `minimum_borrow_usd_value` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.SupplyInterestFactor"></a>
+
+### SupplyInterestFactor
+SupplyInterestFactor defines an individual borrow interest factor.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+| `value` | [string](#string) |  |  |
+
+
+
+
+
+ <!-- end messages -->
+
+ <!-- end enums -->
+
+ <!-- end HasExtensions -->
+
+ <!-- end services -->
+
+
+
+<a name="fury/jinx/v1beta1/genesis.proto"></a>
+<p align="right"><a href="#top">Top</a></p>
+
+## fury/jinx/v1beta1/genesis.proto
+
+
+
+<a name="fury.jinx.v1beta1.GenesisAccumulationTime"></a>
+
+### GenesisAccumulationTime
+GenesisAccumulationTime stores the previous distribution time and its corresponding denom.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `collateral_type` | [string](#string) |  |  |
+| `previous_accumulation_time` | [google.protobuf.Timestamp](#google.protobuf.Timestamp) |  |  |
+| `supply_interest_factor` | [string](#string) |  |  |
+| `borrow_interest_factor` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.GenesisState"></a>
+
+### GenesisState
+GenesisState defines the jinx module's genesis state.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `params` | [Params](#fury.jinx.v1beta1.Params) |  |  |
+| `previous_accumulation_times` | [GenesisAccumulationTime](#fury.jinx.v1beta1.GenesisAccumulationTime) | repeated |  |
+| `deposits` | [Deposit](#fury.jinx.v1beta1.Deposit) | repeated |  |
+| `borrows` | [Borrow](#fury.jinx.v1beta1.Borrow) | repeated |  |
+| `total_supplied` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+| `total_borrowed` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+| `total_reserves` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+
+
+
+
+
+ <!-- end messages -->
+
+ <!-- end enums -->
+
+ <!-- end HasExtensions -->
+
+ <!-- end services -->
+
+
+
+<a name="fury/jinx/v1beta1/query.proto"></a>
+<p align="right"><a href="#top">Top</a></p>
+
+## fury/jinx/v1beta1/query.proto
+
+
+
+<a name="fury.jinx.v1beta1.BorrowInterestFactorResponse"></a>
+
+### BorrowInterestFactorResponse
+BorrowInterestFactorResponse defines an individual borrow interest factor.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+| `value` | [string](#string) |  | sdk.Dec as string |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.BorrowResponse"></a>
+
+### BorrowResponse
+BorrowResponse defines an amount of coins borrowed from a jinx module account.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `borrower` | [string](#string) |  |  |
+| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+| `index` | [BorrowInterestFactorResponse](#fury.jinx.v1beta1.BorrowInterestFactorResponse) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.DepositResponse"></a>
+
+### DepositResponse
+DepositResponse defines an amount of coins deposited into a jinx module account.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `depositor` | [string](#string) |  |  |
+| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+| `index` | [SupplyInterestFactorResponse](#fury.jinx.v1beta1.SupplyInterestFactorResponse) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.InterestFactor"></a>
+
+### InterestFactor
+InterestFactor is a unique type returned by interest factor queries
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+| `borrow_interest_factor` | [string](#string) |  | sdk.Dec as String |
+| `supply_interest_factor` | [string](#string) |  | sdk.Dec as String |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.MoneyMarketInterestRate"></a>
+
+### MoneyMarketInterestRate
+MoneyMarketInterestRate is a unique type returned by interest rate queries
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+| `supply_interest_rate` | [string](#string) |  | sdk.Dec as String |
+| `borrow_interest_rate` | [string](#string) |  | sdk.Dec as String |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryAccountsRequest"></a>
+
+### QueryAccountsRequest
+QueryAccountsRequest is the request type for the Query/Accounts RPC method.
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryAccountsResponse"></a>
+
+### QueryAccountsResponse
+QueryAccountsResponse is the response type for the Query/Accounts RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `accounts` | [cosmos.auth.v1beta1.ModuleAccount](#cosmos.auth.v1beta1.ModuleAccount) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryBorrowsRequest"></a>
+
+### QueryBorrowsRequest
+QueryBorrowsRequest is the request type for the Query/Borrows RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+| `owner` | [string](#string) |  |  |
+| `pagination` | [cosmos.base.query.v1beta1.PageRequest](#cosmos.base.query.v1beta1.PageRequest) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryBorrowsResponse"></a>
+
+### QueryBorrowsResponse
+QueryBorrowsResponse is the response type for the Query/Borrows RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `borrows` | [BorrowResponse](#fury.jinx.v1beta1.BorrowResponse) | repeated |  |
+| `pagination` | [cosmos.base.query.v1beta1.PageResponse](#cosmos.base.query.v1beta1.PageResponse) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryDepositsRequest"></a>
+
+### QueryDepositsRequest
+QueryDepositsRequest is the request type for the Query/Deposits RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+| `owner` | [string](#string) |  |  |
+| `pagination` | [cosmos.base.query.v1beta1.PageRequest](#cosmos.base.query.v1beta1.PageRequest) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryDepositsResponse"></a>
+
+### QueryDepositsResponse
+QueryDepositsResponse is the response type for the Query/Deposits RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `deposits` | [DepositResponse](#fury.jinx.v1beta1.DepositResponse) | repeated |  |
+| `pagination` | [cosmos.base.query.v1beta1.PageResponse](#cosmos.base.query.v1beta1.PageResponse) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryInterestFactorsRequest"></a>
+
+### QueryInterestFactorsRequest
+QueryInterestFactorsRequest is the request type for the Query/InterestFactors RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryInterestFactorsResponse"></a>
+
+### QueryInterestFactorsResponse
+QueryInterestFactorsResponse is the response type for the Query/InterestFactors RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `interest_factors` | [InterestFactor](#fury.jinx.v1beta1.InterestFactor) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryInterestRateRequest"></a>
+
+### QueryInterestRateRequest
+QueryInterestRateRequest is the request type for the Query/InterestRate RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryInterestRateResponse"></a>
+
+### QueryInterestRateResponse
+QueryInterestRateResponse is the response type for the Query/InterestRate RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `interest_rates` | [MoneyMarketInterestRate](#fury.jinx.v1beta1.MoneyMarketInterestRate) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryParamsRequest"></a>
+
+### QueryParamsRequest
+QueryParamsRequest is the request type for the Query/Params RPC method.
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryParamsResponse"></a>
+
+### QueryParamsResponse
+QueryParamsResponse is the response type for the Query/Params RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `params` | [Params](#fury.jinx.v1beta1.Params) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryReservesRequest"></a>
+
+### QueryReservesRequest
+QueryReservesRequest is the request type for the Query/Reserves RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryReservesResponse"></a>
+
+### QueryReservesResponse
+QueryReservesResponse is the response type for the Query/Reserves RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryTotalBorrowedRequest"></a>
+
+### QueryTotalBorrowedRequest
+QueryTotalBorrowedRequest is the request type for the Query/TotalBorrowed RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryTotalBorrowedResponse"></a>
+
+### QueryTotalBorrowedResponse
+QueryTotalBorrowedResponse is the response type for the Query/TotalBorrowed RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `borrowed_coins` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryTotalDepositedRequest"></a>
+
+### QueryTotalDepositedRequest
+QueryTotalDepositedRequest is the request type for the Query/TotalDeposited RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryTotalDepositedResponse"></a>
+
+### QueryTotalDepositedResponse
+QueryTotalDepositedResponse is the response type for the Query/TotalDeposited RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `supplied_coins` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryUnsyncedBorrowsRequest"></a>
+
+### QueryUnsyncedBorrowsRequest
+QueryUnsyncedBorrowsRequest is the request type for the Query/UnsyncedBorrows RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+| `owner` | [string](#string) |  |  |
+| `pagination` | [cosmos.base.query.v1beta1.PageRequest](#cosmos.base.query.v1beta1.PageRequest) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryUnsyncedBorrowsResponse"></a>
+
+### QueryUnsyncedBorrowsResponse
+QueryUnsyncedBorrowsResponse is the response type for the Query/UnsyncedBorrows RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `borrows` | [BorrowResponse](#fury.jinx.v1beta1.BorrowResponse) | repeated |  |
+| `pagination` | [cosmos.base.query.v1beta1.PageResponse](#cosmos.base.query.v1beta1.PageResponse) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryUnsyncedDepositsRequest"></a>
+
+### QueryUnsyncedDepositsRequest
+QueryUnsyncedDepositsRequest is the request type for the Query/UnsyncedDeposits RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+| `owner` | [string](#string) |  |  |
+| `pagination` | [cosmos.base.query.v1beta1.PageRequest](#cosmos.base.query.v1beta1.PageRequest) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.QueryUnsyncedDepositsResponse"></a>
+
+### QueryUnsyncedDepositsResponse
+QueryUnsyncedDepositsResponse is the response type for the Query/UnsyncedDeposits RPC method.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `deposits` | [DepositResponse](#fury.jinx.v1beta1.DepositResponse) | repeated |  |
+| `pagination` | [cosmos.base.query.v1beta1.PageResponse](#cosmos.base.query.v1beta1.PageResponse) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.SupplyInterestFactorResponse"></a>
+
+### SupplyInterestFactorResponse
+SupplyInterestFactorResponse defines an individual borrow interest factor.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `denom` | [string](#string) |  |  |
+| `value` | [string](#string) |  | sdk.Dec as string |
 
 
 
@@ -6225,15 +6055,185 @@ QueryParamsResponse defines the response type for querying x/furydist parameters
  <!-- end HasExtensions -->
 
 
-<a name="fury.furydist.v1beta1.Query"></a>
+<a name="fury.jinx.v1beta1.Query"></a>
 
 ### Query
-Query defines the gRPC querier service.
+Query defines the gRPC querier service for bep3 module.
 
 | Method Name | Request Type | Response Type | Description | HTTP Verb | Endpoint |
 | ----------- | ------------ | ------------- | ------------| ------- | -------- |
-| `Params` | [QueryParamsRequest](#fury.furydist.v1beta1.QueryParamsRequest) | [QueryParamsResponse](#fury.furydist.v1beta1.QueryParamsResponse) | Params queries the parameters of x/furydist module. | GET|/fury/furydist/v1beta1/parameters|
-| `Balance` | [QueryBalanceRequest](#fury.furydist.v1beta1.QueryBalanceRequest) | [QueryBalanceResponse](#fury.furydist.v1beta1.QueryBalanceResponse) | Balance queries the balance of all coins of x/furydist module. | GET|/fury/furydist/v1beta1/balance|
+| `Params` | [QueryParamsRequest](#fury.jinx.v1beta1.QueryParamsRequest) | [QueryParamsResponse](#fury.jinx.v1beta1.QueryParamsResponse) | Params queries module params. | GET|/fury/jinx/v1beta1/params|
+| `Accounts` | [QueryAccountsRequest](#fury.jinx.v1beta1.QueryAccountsRequest) | [QueryAccountsResponse](#fury.jinx.v1beta1.QueryAccountsResponse) | Accounts queries module accounts. | GET|/fury/jinx/v1beta1/accounts|
+| `Deposits` | [QueryDepositsRequest](#fury.jinx.v1beta1.QueryDepositsRequest) | [QueryDepositsResponse](#fury.jinx.v1beta1.QueryDepositsResponse) | Deposits queries jinx deposits. | GET|/fury/jinx/v1beta1/deposits|
+| `UnsyncedDeposits` | [QueryUnsyncedDepositsRequest](#fury.jinx.v1beta1.QueryUnsyncedDepositsRequest) | [QueryUnsyncedDepositsResponse](#fury.jinx.v1beta1.QueryUnsyncedDepositsResponse) | UnsyncedDeposits queries unsynced deposits. | GET|/fury/jinx/v1beta1/unsynced-deposits|
+| `TotalDeposited` | [QueryTotalDepositedRequest](#fury.jinx.v1beta1.QueryTotalDepositedRequest) | [QueryTotalDepositedResponse](#fury.jinx.v1beta1.QueryTotalDepositedResponse) | TotalDeposited queries total coins deposited to jinx liquidity pools. | GET|/fury/jinx/v1beta1/total-deposited|
+| `Borrows` | [QueryBorrowsRequest](#fury.jinx.v1beta1.QueryBorrowsRequest) | [QueryBorrowsResponse](#fury.jinx.v1beta1.QueryBorrowsResponse) | Borrows queries jinx borrows. | GET|/fury/jinx/v1beta1/borrows|
+| `UnsyncedBorrows` | [QueryUnsyncedBorrowsRequest](#fury.jinx.v1beta1.QueryUnsyncedBorrowsRequest) | [QueryUnsyncedBorrowsResponse](#fury.jinx.v1beta1.QueryUnsyncedBorrowsResponse) | UnsyncedBorrows queries unsynced borrows. | GET|/fury/jinx/v1beta1/unsynced-borrows|
+| `TotalBorrowed` | [QueryTotalBorrowedRequest](#fury.jinx.v1beta1.QueryTotalBorrowedRequest) | [QueryTotalBorrowedResponse](#fury.jinx.v1beta1.QueryTotalBorrowedResponse) | TotalBorrowed queries total coins borrowed from jinx liquidity pools. | GET|/fury/jinx/v1beta1/total-borrowed|
+| `InterestRate` | [QueryInterestRateRequest](#fury.jinx.v1beta1.QueryInterestRateRequest) | [QueryInterestRateResponse](#fury.jinx.v1beta1.QueryInterestRateResponse) | InterestRate queries the jinx module interest rates. | GET|/fury/jinx/v1beta1/interest-rate|
+| `Reserves` | [QueryReservesRequest](#fury.jinx.v1beta1.QueryReservesRequest) | [QueryReservesResponse](#fury.jinx.v1beta1.QueryReservesResponse) | Reserves queries total jinx reserve coins. | GET|/fury/jinx/v1beta1/reserves|
+| `InterestFactors` | [QueryInterestFactorsRequest](#fury.jinx.v1beta1.QueryInterestFactorsRequest) | [QueryInterestFactorsResponse](#fury.jinx.v1beta1.QueryInterestFactorsResponse) | InterestFactors queries jinx module interest factors. | GET|/fury/jinx/v1beta1/interest-factors|
+
+ <!-- end services -->
+
+
+
+<a name="fury/jinx/v1beta1/tx.proto"></a>
+<p align="right"><a href="#top">Top</a></p>
+
+## fury/jinx/v1beta1/tx.proto
+
+
+
+<a name="fury.jinx.v1beta1.MsgBorrow"></a>
+
+### MsgBorrow
+MsgBorrow defines the Msg/Borrow request type.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `borrower` | [string](#string) |  |  |
+| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.MsgBorrowResponse"></a>
+
+### MsgBorrowResponse
+MsgBorrowResponse defines the Msg/Borrow response type.
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.MsgDeposit"></a>
+
+### MsgDeposit
+MsgDeposit defines the Msg/Deposit request type.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `depositor` | [string](#string) |  |  |
+| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.MsgDepositResponse"></a>
+
+### MsgDepositResponse
+MsgDepositResponse defines the Msg/Deposit response type.
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.MsgLiquidate"></a>
+
+### MsgLiquidate
+MsgLiquidate defines the Msg/Liquidate request type.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `keeper` | [string](#string) |  |  |
+| `borrower` | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.MsgLiquidateResponse"></a>
+
+### MsgLiquidateResponse
+MsgLiquidateResponse defines the Msg/Liquidate response type.
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.MsgRepay"></a>
+
+### MsgRepay
+MsgRepay defines the Msg/Repay request type.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `sender` | [string](#string) |  |  |
+| `owner` | [string](#string) |  |  |
+| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.MsgRepayResponse"></a>
+
+### MsgRepayResponse
+MsgRepayResponse defines the Msg/Repay response type.
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.MsgWithdraw"></a>
+
+### MsgWithdraw
+MsgWithdraw defines the Msg/Withdraw request type.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| `depositor` | [string](#string) |  |  |
+| `amount` | [cosmos.base.v1beta1.Coin](#cosmos.base.v1beta1.Coin) | repeated |  |
+
+
+
+
+
+
+<a name="fury.jinx.v1beta1.MsgWithdrawResponse"></a>
+
+### MsgWithdrawResponse
+MsgWithdrawResponse defines the Msg/Withdraw response type.
+
+
+
+
+
+ <!-- end messages -->
+
+ <!-- end enums -->
+
+ <!-- end HasExtensions -->
+
+
+<a name="fury.jinx.v1beta1.Msg"></a>
+
+### Msg
+Msg defines the jinx Msg service.
+
+| Method Name | Request Type | Response Type | Description | HTTP Verb | Endpoint |
+| ----------- | ------------ | ------------- | ------------| ------- | -------- |
+| `Deposit` | [MsgDeposit](#fury.jinx.v1beta1.MsgDeposit) | [MsgDepositResponse](#fury.jinx.v1beta1.MsgDepositResponse) | Deposit defines a method for depositing funds to jinx liquidity pool. | |
+| `Withdraw` | [MsgWithdraw](#fury.jinx.v1beta1.MsgWithdraw) | [MsgWithdrawResponse](#fury.jinx.v1beta1.MsgWithdrawResponse) | Withdraw defines a method for withdrawing funds from jinx liquidity pool. | |
+| `Borrow` | [MsgBorrow](#fury.jinx.v1beta1.MsgBorrow) | [MsgBorrowResponse](#fury.jinx.v1beta1.MsgBorrowResponse) | Borrow defines a method for borrowing funds from jinx liquidity pool. | |
+| `Repay` | [MsgRepay](#fury.jinx.v1beta1.MsgRepay) | [MsgRepayResponse](#fury.jinx.v1beta1.MsgRepayResponse) | Repay defines a method for repaying funds borrowed from jinx liquidity pool. | |
+| `Liquidate` | [MsgLiquidate](#fury.jinx.v1beta1.MsgLiquidate) | [MsgLiquidateResponse](#fury.jinx.v1beta1.MsgLiquidateResponse) | Liquidate defines a method for attempting to liquidate a borrower that is over their loan-to-value. | |
 
  <!-- end services -->
 

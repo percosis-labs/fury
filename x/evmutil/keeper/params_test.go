@@ -21,7 +21,7 @@ func TestParamsSuite(t *testing.T) {
 }
 
 func (suite *ParamsTestSuite) TestEnabledConversionPair() {
-	pairAddr := testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2")
+	pairAddr := testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D")
 	expPair := types.ConversionPair{
 		FuryERC20Address: pairAddr.Bytes(),
 		Denom:            "weth",

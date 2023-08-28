@@ -9,7 +9,7 @@ import (
 )
 
 func (suite *AccumulateEarnRewardsTests) TestStakingRewardsDistributed() {
-	vaultDenom1 := "bfury-meow"
+	vaultDenom1 := "bfury-jinx"
 	vaultDenom2 := "bfury-woof"
 
 	previousAccrualTime := time.Date(1998, 1, 1, 0, 0, 0, 0, time.UTC)

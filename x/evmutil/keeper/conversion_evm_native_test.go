@@ -24,7 +24,7 @@ func TestConversionTestSuite(t *testing.T) {
 func (suite *ConversionTestSuite) TestMint() {
 	pair := types.NewConversionPair(
 		testutil.MustNewInternalEVMAddressFromString("0x000000000000000000000000000000000000000A"),
-		"erc20/usdc",
+		"erc20/weth",
 	)
 
 	amount := big.NewInt(100)
@@ -41,7 +41,7 @@ func (suite *ConversionTestSuite) TestMint() {
 func (suite *ConversionTestSuite) TestBurn_InsufficientBalance() {
 	pair := types.NewConversionPair(
 		testutil.MustNewInternalEVMAddressFromString("0x000000000000000000000000000000000000000A"),
-		"erc20/usdc",
+		"erc20/weth",
 	)
 
 	amount := sdkmath.NewInt(100)
@@ -49,13 +49,13 @@ func (suite *ConversionTestSuite) TestBurn_InsufficientBalance() {
 
 	err := suite.Keeper.BurnConversionPairCoin(suite.Ctx, pair, sdk.NewCoin(pair.Denom, amount), recipient)
 	suite.Require().Error(err)
-	suite.Require().Equal("0erc20/usdc is smaller than 100erc20/usdc: insufficient funds", err.Error())
+	suite.Require().Equal("0erc20/weth is smaller than 100erc20/weth: insufficient funds", err.Error())
 }
 
 func (suite *ConversionTestSuite) TestBurn() {
 	pair := types.NewConversionPair(
 		testutil.MustNewInternalEVMAddressFromString("0x000000000000000000000000000000000000000A"),
-		"erc20/usdc",
+		"erc20/weth",
 	)
 
 	amount := sdkmath.NewInt(100)
@@ -80,7 +80,7 @@ func (suite *ConversionTestSuite) TestUnlockERC20Tokens() {
 
 	pair := types.NewConversionPair(
 		contractAddr,
-		"erc20/usdc",
+		"erc20/weth",
 	)
 
 	amount := big.NewInt(100)
@@ -126,7 +126,7 @@ func (suite *ConversionTestSuite) TestUnlockERC20Tokens_Insufficient() {
 
 	pair := types.NewConversionPair(
 		contractAddr,
-		"erc20/usdc",
+		"erc20/weth",
 	)
 
 	amount := big.NewInt(100)
@@ -143,7 +143,7 @@ func (suite *ConversionTestSuite) TestConvertCoinToERC20() {
 
 	pair := types.NewConversionPair(
 		contractAddr,
-		"erc20/usdc",
+		"erc20/weth",
 	)
 
 	amount := big.NewInt(100)
@@ -222,7 +222,7 @@ func (suite *ConversionTestSuite) TestConvertCoinToERC20_InsufficientBalance() {
 
 	pair := types.NewConversionPair(
 		contractAddr,
-		"erc20/usdc",
+		"erc20/weth",
 	)
 
 	amount := big.NewInt(100)
@@ -237,7 +237,7 @@ func (suite *ConversionTestSuite) TestConvertCoinToERC20_InsufficientBalance() {
 	)
 
 	suite.Require().Error(err)
-	suite.Require().Equal("0erc20/usdc is smaller than 100erc20/usdc: insufficient funds", err.Error())
+	suite.Require().Equal("0erc20/weth is smaller than 100erc20/weth: insufficient funds", err.Error())
 }
 
 func (suite *ConversionTestSuite) TestConvertCoinToERC20_NotEnabled() {
@@ -268,7 +268,7 @@ func (suite *ConversionTestSuite) TestConvertERC20ToCoin() {
 
 	pair := types.NewConversionPair(
 		contractAddr,
-		"erc20/usdc",
+		"erc20/weth",
 	)
 
 	totalAmt := big.NewInt(100)
@@ -329,7 +329,7 @@ func (suite *ConversionTestSuite) TestConvertERC20ToCoin_EmptyContract() {
 	contractAddr := testutil.MustNewInternalEVMAddressFromString("0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3")
 	pair := types.NewConversionPair(
 		contractAddr,
-		"erc20/usdc",
+		"erc20/weth",
 	)
 
 	userAddr := sdk.AccAddress(suite.Key1.PubKey().Address().Bytes())

@@ -242,17 +242,17 @@ format:
 
 # Build docker image and tag as fury/fury:local
 docker-build:
-	DOCKER_BUILDKIT=1 $(DOCKER) build -t fury/fury:local .
+	DOCKER_BUILDKIT=1 $(DOCKER) build -t fanfury/fury:local .
 
 docker-build-rocksdb:
-	DOCKER_BUILDKIT=1 $(DOCKER) build -f Dockerfile-rocksdb -t fury/fury:local .
+	DOCKER_BUILDKIT=1 $(DOCKER) build -f Dockerfile-rocksdb -t fanfury/fury:local .
 
 build-docker-local-fury:
 	@$(MAKE) -C networks/local
 
 # Run a 4-node testnet locally
 localnet-start: build-linux localnet-stop
-	@if ! [ -f build/node0/fud/config/genesis.json ]; then docker run --rm -v $(CURDIR)/build:/fud:Z fury/furynode testnet --v 4 -o . --starting-ip-address 192.168.10.2 --keyring-backend=test ; fi
+	@if ! [ -f build/node0/fud/config/genesis.json ]; then docker run --rm -v $(CURDIR)/build:/fud:Z fanfury/furynode testnet --v 4 -o . --starting-ip-address 192.168.10.2 --keyring-backend=test ; fi
 	docker-compose up -d
 
 localnet-stop:

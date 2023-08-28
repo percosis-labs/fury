@@ -21,7 +21,7 @@ func TestConversionPairValidate(t *testing.T) {
 	}{
 		{
 			"valid",
-			testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"),
+			testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D"),
 			"weth",
 			errArgs{
 				expectPass: true,
@@ -29,7 +29,7 @@ func TestConversionPairValidate(t *testing.T) {
 		},
 		{
 			"invalid - empty denom",
-			testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"),
+			testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D"),
 			"",
 			errArgs{
 				expectPass: false,
@@ -76,7 +76,7 @@ func TestConversionPairValidate_Direct(t *testing.T) {
 		{
 			"valid",
 			types.ConversionPair{
-				FuryERC20Address: testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2").Bytes(),
+				FuryERC20Address: testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D").Bytes(),
 				Denom:            "weth",
 			},
 			errArgs{
@@ -112,7 +112,7 @@ func TestConversionPairValidate_Direct(t *testing.T) {
 }
 
 func TestConversionPair_GetAddress(t *testing.T) {
-	addr := testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2")
+	addr := testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D")
 
 	pair := types.NewConversionPair(
 		addr,
@@ -137,7 +137,7 @@ func TestConversionPairs_Validate(t *testing.T) {
 			"valid",
 			types.NewConversionPairs(
 				types.NewConversionPair(
-					testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"),
+					testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D"),
 					"weth",
 				),
 				types.NewConversionPair(
@@ -157,11 +157,11 @@ func TestConversionPairs_Validate(t *testing.T) {
 			"invalid - duplicate address",
 			types.NewConversionPairs(
 				types.NewConversionPair(
-					testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"),
+					testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D"),
 					"weth",
 				),
 				types.NewConversionPair(
-					testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"),
+					testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D"),
 					"fury",
 				),
 				types.NewConversionPair(
@@ -178,7 +178,7 @@ func TestConversionPairs_Validate(t *testing.T) {
 			"invalid - duplicate denom",
 			types.NewConversionPairs(
 				types.NewConversionPair(
-					testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"),
+					testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D"),
 					"weth",
 				),
 				types.NewConversionPair(
@@ -199,7 +199,7 @@ func TestConversionPairs_Validate(t *testing.T) {
 			"invalid - invalid pair",
 			types.NewConversionPairs(
 				types.NewConversionPair(
-					testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"),
+					testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D"),
 					"weth",
 				),
 				types.NewConversionPair(

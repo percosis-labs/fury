@@ -17,7 +17,7 @@ userMnemonic="news tornado sponsor drastic dolphin awful plastic select true liz
 # fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6qm7n4t
 
 relayerMnemonic="never reject sniff east arctic funny twin feed upper series stay shoot vivid adapt defense economy pledge fetch invite approve ceiling admit gloom exit"
-# 0xa2F728F997f62F47D4262a70947F6c36885dF9fa
+# 0x73913C01D6A7FC4E033A828D7F992E4F38FDD532
 # fury15tmj37vh7ch504px9fcfglmvx6y9m70646ev8t
 
 DATA=~/.fury

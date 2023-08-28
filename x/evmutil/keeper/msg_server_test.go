@@ -37,14 +37,14 @@ func (suite *MsgServerSuite) TestConvertCoinToERC20() {
 	invoker, err := sdk.AccAddressFromBech32("fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz")
 	suite.Require().NoError(err)
 
-	err = suite.App.FundAccount(suite.Ctx, invoker, sdk.NewCoins(sdk.NewCoin("erc20/usdc", sdkmath.NewInt(10000))))
+	err = suite.App.FundAccount(suite.Ctx, invoker, sdk.NewCoins(sdk.NewCoin("erc20/weth", sdkmath.NewInt(10000))))
 	suite.Require().NoError(err)
 
 	contractAddr := suite.DeployERC20()
 
 	pair := types.NewConversionPair(
 		contractAddr,
-		"erc20/usdc",
+		"erc20/weth",
 	)
 
 	// Module account should have starting balance
@@ -71,8 +71,8 @@ func (suite *MsgServerSuite) TestConvertCoinToERC20() {
 			"valid",
 			types.NewMsgConvertCoinToERC20(
 				invoker.String(),
-				"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-				sdk.NewCoin("erc20/usdc", sdkmath.NewInt(1234)),
+				"0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D",
+				sdk.NewCoin("erc20/weth", sdkmath.NewInt(1234)),
 			),
 			errArgs{
 				expectPass: true,
@@ -83,7 +83,7 @@ func (suite *MsgServerSuite) TestConvertCoinToERC20() {
 			types.NewMsgConvertCoinToERC20(
 				invoker.String(),
 				"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc",
-				sdk.NewCoin("erc20/usdc", sdkmath.NewInt(1234)),
+				sdk.NewCoin("erc20/weth", sdkmath.NewInt(1234)),
 			),
 			errArgs{
 				expectPass: false,
@@ -137,11 +137,11 @@ func (suite *MsgServerSuite) TestConvertERC20ToCoin() {
 	contractAddr := suite.DeployERC20()
 	pair := types.NewConversionPair(
 		contractAddr,
-		"erc20/usdc",
+		"erc20/weth",
 	)
 
 	// give invoker account some erc20 usdc to begin with
-	invoker := testutil.MustNewInternalEVMAddressFromString("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2")
+	invoker := testutil.MustNewInternalEVMAddressFromString("0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D")
 	pairStartingBal := big.NewInt(10_000_000)
 	err := suite.Keeper.MintERC20(
 		suite.Ctx,

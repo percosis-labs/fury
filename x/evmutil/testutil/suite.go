@@ -151,7 +151,7 @@ func (suite *Suite) SetupTest() {
 			types.NewConversionPair(
 				// First contract this module deploys
 				MustNewInternalEVMAddressFromString("0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3"),
-				"erc20/usdc",
+				"erc20/weth",
 			),
 		),
 		types.NewAllowedCosmosCoinERC20Tokens(),

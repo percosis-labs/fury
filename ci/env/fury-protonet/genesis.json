@@ -46,7 +46,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury1g3kdcr8ah7rs07dk00elnkpmk34e6dcj94306a",
+            "address": "fury1g3kdcr8ah7rs07dk00elnkpmk34e6dcjftval4",
             "pub_key": null,
             "account_number": "0",
             "sequence": "1"
@@ -56,7 +56,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury1jc92jznsjlvfs6d4l8qjhc4j3gaapvmkypxlln",
+            "address": "fury1jc92jznsjlvfs6d4l8qjhc4j3gaapvmkglmd6m",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -66,7 +66,7 @@
         {
           "@type": "/cosmos.auth.v1beta1.ModuleAccount",
           "base_account": {
-            "address": "fury1cj7njkw2g9fqx4e768zc75dp9sks8u9znxrf0w",
+            "address": "fury1cj7njkw2g9fqx4e768zc75dp9sks8u9zlc7m2x",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -79,7 +79,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury1ak4pa9z2aty94ze2cs06wsdnkg9hsvfkp40r02",
+            "address": "fury1ak4pa9z2aty94ze2cs06wsdnkg9hsvfkdtj32z",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -89,7 +89,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz",
+            "address": "fury123fxg0l602etulhhcdm0vt7l57qya5wj5an982",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -99,7 +99,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6qm7n4t",
+            "address": "fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6v9rpsr",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -109,7 +109,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury1vtf08rd2z9fm8qwxa54y3el5vues8ty64qcdyr",
+            "address": "fury1vtf08rd2z9fm8qwxa54y3el5vues8ty6e79lpt",
             "pub_key": null,
             "account_number": "0",
             "sequence": "1"
@@ -119,7 +119,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury1wrrekcy2h0zs9shkruuwqsvsldq8hm70yad4ke",
+            "address": "fury1wrrekcy2h0zs9shkruuwqsvsldq8hm70grs8n3",
             "pub_key": null,
             "account_number": "0",
             "sequence": "1"
@@ -129,7 +129,7 @@
         {
           "@type": "/cosmos.auth.v1beta1.ModuleAccount",
           "base_account": {
-            "address": "fury1mfru9azs5nua2wxcd4sq64g5nt7nn4n8s2w8cu",
+            "address": "fury1mfru9azs5nua2wxcd4sq64g5nt7nn4n8u5n4a5",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -139,7 +139,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "fury1fy5zeuutmxzwcx5hncu5q83ug3zcqmxcpwrjsn",
+          "address": "fury1q2pwdyvpvvf92nk0q2en4nt3qu0q5yv47xpm3t",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -147,7 +147,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxw9ehkk",
+            "address": "fury1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxzmy9n7",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -157,7 +157,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury1kq0kfnnffkna9hknzg8kgx89ljczjtjdt8qrv7",
+            "address": "fury1kq0kfnnffkna9hknzg8kgx89ljczjtjd8ea3fk",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -166,14 +166,14 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "fury1krh7k30pc9rteejpl2zycj0vau58y8c69xkzws",
+          "address": "fury1krh7k30pc9rteejpl2zycj0vau58y8c6fctstc",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -181,7 +181,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury1w66m9hdzwgd6uc8g93zqkcumgwzrpcw9e32lf8",
+            "address": "fury1w66m9hdzwgd6uc8g93zqkcumgwzrpcw940hdv0",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -191,7 +191,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury1xg3g4gadzvlgfqwnsfufnsv6r0gmtnhl9f09p5",
+            "address": "fury1xg3g4gadzvlgfqwnsfufnsv6r0gmtnhlfhjhyu",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -200,21 +200,21 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "fury10cy05c0j9udypdrp0wy8a5jtshx67v7zk5sdzp",
+          "address": "fury10cy05c0j9udypdrp0wy8a5jtshx67v7z62dl8f",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "fury1qffzssyckxgrd7qm6g59r7rfjpp047kzaefatc",
+          "address": "fury1qffzssyckxgrd7qm6g59r7rfjpp047kz3850ws",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "fury14w4avgdvqrlpww6l5dhgj4egfn6ln7gmxhytjv",
+          "address": "fury14w4avgdvqrlpww6l5dhgj4egfn6ln7gm2feehy",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -222,7 +222,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "fury1seqjrgakfgzasu5g8gwsmgzwacg85e8nnxeqxl",
+            "address": "fury1seqjrgakfgzasu5g8gwsmgzwacg85e8nlcyjrh",
             "pub_key": null,
             "account_number": "23",
             "sequence": "1"
@@ -239,8 +239,8 @@
             "msg": "/cosmos.bank.v1beta1.MsgMultiSend"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -248,8 +248,8 @@
             "msg": "/cosmos.bank.v1beta1.MsgSend"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -257,8 +257,8 @@
             "msg": "/cosmos.distribution.v1beta1.MsgFundCommunityPool"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -266,8 +266,8 @@
             "msg": "/cosmos.distribution.v1beta1.MsgSetWithdrawAddress"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -275,8 +275,8 @@
             "msg": "/cosmos.distribution.v1beta1.MsgWithdrawDelegatorReward"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -284,8 +284,8 @@
             "msg": "/cosmos.distribution.v1beta1.MsgWithdrawValidatorCommission"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -293,8 +293,8 @@
             "msg": "/cosmos.staking.v1beta1.MsgBeginRedelegate"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -302,8 +302,8 @@
             "msg": "/cosmos.staking.v1beta1.MsgCancelUnbondingDelegation"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -311,8 +311,8 @@
             "msg": "/cosmos.staking.v1beta1.MsgDelegate"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -320,8 +320,8 @@
             "msg": "/cosmos.staking.v1beta1.MsgUndelegate"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -329,8 +329,8 @@
             "msg": "/fury.cdp.v1beta1.MsgCreateCDP"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -338,8 +338,8 @@
             "msg": "/fury.cdp.v1beta1.MsgDeposit"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -347,8 +347,8 @@
             "msg": "/fury.cdp.v1beta1.MsgDrawDebt"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -356,8 +356,8 @@
             "msg": "/fury.cdp.v1beta1.MsgRepayDebt"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -365,8 +365,8 @@
             "msg": "/fury.cdp.v1beta1.MsgWithdraw"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -374,8 +374,8 @@
             "msg": "/fury.jinx.v1beta1.MsgBorrow"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -383,8 +383,8 @@
             "msg": "/fury.jinx.v1beta1.MsgDeposit"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -392,8 +392,8 @@
             "msg": "/fury.jinx.v1beta1.MsgRepay"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -401,8 +401,8 @@
             "msg": "/fury.jinx.v1beta1.MsgWithdraw"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -410,8 +410,8 @@
             "msg": "/fury.liquid.v1beta1.MsgBurnDerivative"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -419,8 +419,8 @@
             "msg": "/fury.liquid.v1beta1.MsgMintDerivative"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -428,8 +428,8 @@
             "msg": "/fury.swap.v1beta1.MsgDeposit"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -437,8 +437,8 @@
             "msg": "/fury.swap.v1beta1.MsgSwapExactForTokens"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -446,8 +446,8 @@
             "msg": "/fury.swap.v1beta1.MsgSwapForExactTokens"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         },
         {
           "authorization": {
@@ -455,8 +455,8 @@
             "msg": "/fury.swap.v1beta1.MsgWithdraw"
           },
           "expiration": null,
-          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700jxh8cq5",
-          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4qlx3t5"
+          "grantee": "fury10d07y265gmmuvt4z0w9aw880jnsr700j2f629u",
+          "granter": "fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu"
         }
       ]
     },
@@ -467,7 +467,7 @@
       },
       "balances": [
         {
-          "address": "fury1qffzssyckxgrd7qm6g59r7rfjpp047kzaefatc",
+          "address": "fury1qffzssyckxgrd7qm6g59r7rfjpp047kz3850ws",
           "coins": [
             {
               "denom": "btcb",
@@ -496,7 +496,7 @@
           ]
         },
         {
-          "address": "fury1xg3g4gadzvlgfqwnsfufnsv6r0gmtnhl9f09p5",
+          "address": "fury1xg3g4gadzvlgfqwnsfufnsv6r0gmtnhlfhjhyu",
           "coins": [
             {
               "denom": "ufury",
@@ -505,7 +505,7 @@
           ]
         },
         {
-          "address": "fury1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxw9ehkk",
+          "address": "fury1xcgtffvv2yeqmgs3yz4gv29kgjrj8usxzmy9n7",
           "coins": [
             {
               "denom": "ufury",
@@ -514,7 +514,7 @@
           ]
         },
         {
-          "address": "fury1g3kdcr8ah7rs07dk00elnkpmk34e6dcj94306a",
+          "address": "fury1g3kdcr8ah7rs07dk00elnkpmk34e6dcjftval4",
           "coins": [
             {
               "denom": "ufury",
@@ -523,7 +523,7 @@
           ]
         },
         {
-          "address": "fury1fy5zeuutmxzwcx5hncu5q83ug3zcqmxcpwrjsn",
+          "address": "fury1q2pwdyvpvvf92nk0q2en4nt3qu0q5yv47xpm3t",
           "coins": [
             {
               "denom": "ufury",
@@ -532,7 +532,7 @@
           ]
         },
         {
-          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+          "address": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
           "coins": [
             {
               "denom": "btcb",
@@ -573,7 +573,7 @@
           ]
         },
         {
-          "address": "fury1w66m9hdzwgd6uc8g93zqkcumgwzrpcw9e32lf8",
+          "address": "fury1w66m9hdzwgd6uc8g93zqkcumgwzrpcw940hdv0",
           "coins": [
             {
               "denom": "ufury",
@@ -582,7 +582,7 @@
           ]
         },
         {
-          "address": "fury10cy05c0j9udypdrp0wy8a5jtshx67v7zk5sdzp",
+          "address": "fury10cy05c0j9udypdrp0wy8a5jtshx67v7z62dl8f",
           "coins": [
             {
               "denom": "btcb",
@@ -611,7 +611,7 @@
           ]
         },
         {
-          "address": "fury1jc92jznsjlvfs6d4l8qjhc4j3gaapvmkypxlln",
+          "address": "fury1jc92jznsjlvfs6d4l8qjhc4j3gaapvmkglmd6m",
           "coins": [
             {
               "denom": "ufury",
@@ -620,7 +620,7 @@
           ]
         },
         {
-          "address": "fury14w4avgdvqrlpww6l5dhgj4egfn6ln7gmxhytjv",
+          "address": "fury14w4avgdvqrlpww6l5dhgj4egfn6ln7gm2feehy",
           "coins": [
             {
               "denom": "ufury",
@@ -629,7 +629,7 @@
           ]
         },
         {
-          "address": "fury1kq0kfnnffkna9hknzg8kgx89ljczjtjdt8qrv7",
+          "address": "fury1kq0kfnnffkna9hknzg8kgx89ljczjtjd8ea3fk",
           "coins": [
             {
               "denom": "ufury",
@@ -638,7 +638,7 @@
           ]
         },
         {
-          "address": "fury1krh7k30pc9rteejpl2zycj0vau58y8c69xkzws",
+          "address": "fury1krh7k30pc9rteejpl2zycj0vau58y8c6fctstc",
           "coins": [
             {
               "denom": "btcb",
@@ -679,7 +679,7 @@
           ]
         },
         {
-          "address": "fury1cj7njkw2g9fqx4e768zc75dp9sks8u9znxrf0w",
+          "address": "fury1cj7njkw2g9fqx4e768zc75dp9sks8u9zlc7m2x",
           "coins": [
             {
               "denom": "jinx",
@@ -696,7 +696,7 @@
           ]
         },
         {
-          "address": "fury1mfru9azs5nua2wxcd4sq64g5nt7nn4n8s2w8cu",
+          "address": "fury1mfru9azs5nua2wxcd4sq64g5nt7nn4n8u5n4a5",
           "coins": [
             {
               "denom": "btcb",
@@ -740,7 +740,7 @@
               "time_based_limit": "0"
             },
             "active": true,
-            "deputy_address": "fury1kla4wl0ccv7u85cemvs3y987hqk0afcv7vue84",
+            "deputy_address": "fury1kla4wl0ccv7u85cemvs3y987hqk0afcvjjptza",
             "fixed_fee": "2",
             "min_swap_amount": "3",
             "max_swap_amount": "2000000000",
@@ -757,7 +757,7 @@
               "time_based_limit": "0"
             },
             "active": true,
-            "deputy_address": "fury14q5sawxdxtpap5x5sgzj7v4sp3ucncjlpuk3hs",
+            "deputy_address": "fury14q5sawxdxtpap5x5sgzj7v4sp3ucncjldztrjc",
             "fixed_fee": "100000",
             "min_swap_amount": "100001",
             "max_swap_amount": "250000000000000",
@@ -774,7 +774,7 @@
               "time_based_limit": "0"
             },
             "active": true,
-            "deputy_address": "fury1agcvt07tcw0tglu0hmwdecsnuxp2yd45f3avgm",
+            "deputy_address": "fury1agcvt07tcw0tglu0hmwdecsnuxp2yd4590q7dn",
             "fixed_fee": "1000",
             "min_swap_amount": "1001",
             "max_swap_amount": "500000000000",
@@ -791,7 +791,7 @@
               "time_based_limit": "0"
             },
             "active": true,
-            "deputy_address": "fury1j9je7f6s0v6k7dmgv6u5k5ru202f5ffsc7af04",
+            "deputy_address": "fury1j9je7f6s0v6k7dmgv6u5k5ru202f5ffs5qqm2a",
             "fixed_fee": "20000",
             "min_swap_amount": "20001",
             "max_swap_amount": "100000000000000",
@@ -806,21 +806,21 @@
         "bridge_enabled": true,
         "enabled_erc20_tokens": [
           {
-            "address": "0x6098c27D41ec6dc280c2200A737D443b0AaA2E8F",
+            "address": "0x595F0CE3e840FDcC0676CF522477B6b46a6bC734",
             "name": "Wrapped ETH",
             "symbol": "WETH",
             "decimals": 18,
             "minimum_withdraw_amount": "10000000000000000"
           },
           {
-            "address": "0x4Fb48E68842bb59f07569c623ACa5826b600F8F7",
+            "address": "0x8Cd469d13d804f44Ea6bB2F7d7bF8919Ae45400D",
             "name": "USDC",
             "symbol": "USDC",
             "decimals": 6,
             "minimum_withdraw_amount": "10000000"
           }
         ],
-        "relayer": "fury15tmj37vh7ch504px9fcfglmvx6y9m70646ev8t",
+        "relayer": "fury15tmj37vh7ch504px9fcfglmvx6y9m706eyy7zr",
         "enabled_conversion_pairs": []
       },
       "erc20_bridge_pairs": [],
@@ -1085,7 +1085,7 @@
             "id": "1",
             "description": "Fury Stability Committee",
             "members": [
-              "fury1fy5zeuutmxzwcx5hncu5q83ug3zcqmxcpwrjsn"
+              "fury1q2pwdyvpvvf92nk0q2en4nt3qu0q5yv47xpm3t"
             ],
             "permissions": [
               {
@@ -1193,7 +1193,7 @@
             "id": "2",
             "description": "Fury Safety Committee",
             "members": [
-              "fury1fy5zeuutmxzwcx5hncu5q83ug3zcqmxcpwrjsn"
+              "fury1q2pwdyvpvvf92nk0q2en4nt3qu0q5yv47xpm3t"
             ],
             "permissions": [
               {
@@ -1211,7 +1211,7 @@
             "id": "3",
             "description": "Fury God Committee (testing only)",
             "members": [
-              "fury1fy5zeuutmxzwcx5hncu5q83ug3zcqmxcpwrjsn"
+              "fury1q2pwdyvpvvf92nk0q2en4nt3qu0q5yv47xpm3t"
             ],
             "permissions": [
               {
@@ -1229,7 +1229,7 @@
             "id": "4",
             "description": "JINX Governance Committee",
             "members": [
-              "fury1fy5zeuutmxzwcx5hncu5q83ug3zcqmxcpwrjsn"
+              "fury1q2pwdyvpvvf92nk0q2en4nt3qu0q5yv47xpm3t"
             ],
             "permissions": [
               {
@@ -1274,7 +1274,7 @@
             "id": "5",
             "description": "MER Governance Committee",
             "members": [
-              "fury1fy5zeuutmxzwcx5hncu5q83ug3zcqmxcpwrjsn"
+              "fury1q2pwdyvpvvf92nk0q2en4nt3qu0q5yv47xpm3t"
             ],
             "permissions": [
               {
@@ -1464,12 +1464,12 @@
           ]
         },
         {
-          "address": "0x62d2f38dAA1153b381c6ed2A48e7f4673303ac9A",
+          "address": "0x595F0CE3e840FDcC0676CF522477B6b46a6bC734",
           "code": "608060405234801561001057600080fd5b50600436106100b45760003560e01c806372425d9d1161007157806372425d9d146101a657806386d516e8146101c4578063a8b0574e146101e2578063bce38bd714610200578063c3077fa914610230578063ee82ac5e14610262576100b4565b80630f28c97d146100b9578063252dba42146100d757806327e86d6e14610108578063399542e91461012657806342cbb15c146101585780634d2301cc14610176575b600080fd5b6100c1610292565b6040516100ce91906106a3565b60405180910390f35b6100f160048036038101906100ec91906109d2565b61029a565b6040516100ff929190610b65565b60405180910390f35b610110610423565b60405161011d9190610bae565b60405180910390f35b610140600480360381019061013b9190610c01565b610438565b60405161014f93929190610d6b565b60405180910390f35b610160610457565b60405161016d91906106a3565b60405180910390f35b610190600480360381019061018b9190610da9565b61045f565b60405161019d91906106a3565b60405180910390f35b6101ae610480565b6040516101bb91906106a3565b60405180910390f35b6101cc610488565b6040516101d991906106a3565b60405180910390f35b6101ea610490565b6040516101f79190610de5565b60405180910390f35b61021a60048036038101906102159190610c01565b610498565b6040516102279190610e00565b60405180910390f35b61024a600480360381019061024591906109d2565b610640565b60405161025993929190610d6b565b60405180910390f35b61027c60048036038101906102779190610e4e565b610663565b6040516102899190610bae565b60405180910390f35b600042905090565b60006060439150825167ffffffffffffffff8111156102bc576102bb6106e8565b5b6040519080825280602002602001820160405280156102ef57816020015b60608152602001906001900390816102da5790505b50905060005b835181101561041d5760008085838151811061031457610313610e7b565b5b60200260200101516000015173ffffffffffffffffffffffffffffffffffffffff1686848151811061034957610348610e7b565b5b6020026020010151602001516040516103629190610ee6565b6000604051808303816000865af19150503d806000811461039f576040519150601f19603f3d011682016040523d82523d6000602084013e6103a4565b606091505b5091509150816103e9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016103e090610f5a565b60405180910390fd5b808484815181106103fd576103fc610e7b565b5b60200260200101819052505050808061041590610fa9565b9150506102f5565b50915091565b60006001436104329190610ff2565b40905090565b60008060604392504340915061044e8585610498565b90509250925092565b600043905090565b60008173ffffffffffffffffffffffffffffffffffffffff16319050919050565b600044905090565b600045905090565b600041905090565b6060815167ffffffffffffffff8111156104b5576104b46106e8565b5b6040519080825280602002602001820160405280156104ee57816020015b6104db61066e565b8152602001906001900390816104d35790505b50905060005b82518110156106395760008084838151811061051357610512610e7b565b5b60200260200101516000015173ffffffffffffffffffffffffffffffffffffffff1685848151811061054857610547610e7b565b5b6020026020010151602001516040516105619190610ee6565b6000604051808303816000865af19150503d806000811461059e576040519150601f19603f3d011682016040523d82523d6000602084013e6105a3565b606091505b509150915085156105ef57816105ee576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016105e590611098565b60405180910390fd5b5b604051806040016040528083151581526020018281525084848151811061061957610618610e7b565b5b60200260200101819052505050808061063190610fa9565b9150506104f4565b5092915050565b6000806060610650600185610438565b8093508194508295505050509193909250565b600081409050919050565b6040518060400160405280600015158152602001606081525090565b6000819050919050565b61069d8161068a565b82525050565b60006020820190506106b86000830184610694565b92915050565b6000604051905090565b600080fd5b600080fd5b600080fd5b6000601f19601f8301169050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b610720826106d7565b810181811067ffffffffffffffff8211171561073f5761073e6106e8565b5b80604052505050565b60006107526106be565b905061075e8282610717565b919050565b600067ffffffffffffffff82111561077e5761077d6106e8565b5b602082029050602081019050919050565b600080fd5b600080fd5b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006107c98261079e565b9050919050565b6107d9816107be565b81146107e457600080fd5b50565b6000813590506107f6816107d0565b92915050565b600080fd5b600067ffffffffffffffff82111561081c5761081b6106e8565b5b610825826106d7565b9050602081019050919050565b82818337600083830152505050565b600061085461084f84610801565b610748565b9050828152602081018484840111156108705761086f6107fc565b5b61087b848285610832565b509392505050565b600082601f830112610898576108976106d2565b5b81356108a8848260208601610841565b91505092915050565b6000604082840312156108c7576108c6610794565b5b6108d16040610748565b905060006108e1848285016107e7565b600083015250602082013567ffffffffffffffff81111561090557610904610799565b5b61091184828501610883565b60208301525092915050565b600061093061092b84610763565b610748565b905080838252602082019050602084028301858111156109535761095261078f565b5b835b8181101561099a57803567ffffffffffffffff811115610978576109776106d2565b5b80860161098589826108b1565b85526020850194505050602081019050610955565b5050509392505050565b600082601f8301126109b9576109b86106d2565b5b81356109c984826020860161091d565b91505092915050565b6000602082840312156109e8576109e76106c8565b5b600082013567ffffffffffffffff811115610a0657610a056106cd565b5b610a12848285016109a4565b91505092915050565b600081519050919050565b600082825260208201905092915050565b6000819050602082019050919050565b600081519050919050565b600082825260208201905092915050565b60005b83811015610a81578082015181840152602081019050610a66565b83811115610a90576000848401525b50505050565b6000610aa182610a47565b610aab8185610a52565b9350610abb818560208601610a63565b610ac4816106d7565b840191505092915050565b6000610adb8383610a96565b905092915050565b6000602082019050919050565b6000610afb82610a1b565b610b058185610a26565b935083602082028501610b1785610a37565b8060005b85811015610b535784840389528151610b348582610acf565b9450610b3f83610ae3565b925060208a01995050600181019050610b1b565b50829750879550505050505092915050565b6000604082019050610b7a6000830185610694565b8181036020830152610b8c8184610af0565b90509392505050565b6000819050919050565b610ba881610b95565b82525050565b6000602082019050610bc36000830184610b9f565b92915050565b60008115159050919050565b610bde81610bc9565b8114610be957600080fd5b50565b600081359050610bfb81610bd5565b92915050565b60008060408385031215610c1857610c176106c8565b5b6000610c2685828601610bec565b925050602083013567ffffffffffffffff811115610c4757610c466106cd565b5b610c53858286016109a4565b9150509250929050565b600081519050919050565b600082825260208201905092915050565b6000819050602082019050919050565b610c9281610bc9565b82525050565b6000604083016000830151610cb06000860182610c89565b5060208301518482036020860152610cc88282610a96565b9150508091505092915050565b6000610ce18383610c98565b905092915050565b6000602082019050919050565b6000610d0182610c5d565b610d0b8185610c68565b935083602082028501610d1d85610c79565b8060005b85811015610d595784840389528151610d3a8582610cd5565b9450610d4583610ce9565b925060208a01995050600181019050610d21565b50829750879550505050505092915050565b6000606082019050610d806000830186610694565b610d8d6020830185610b9f565b8181036040830152610d9f8184610cf6565b9050949350505050565b600060208284031215610dbf57610dbe6106c8565b5b6000610dcd848285016107e7565b91505092915050565b610ddf816107be565b82525050565b6000602082019050610dfa6000830184610dd6565b92915050565b60006020820190508181036000830152610e1a8184610cf6565b905092915050565b610e2b8161068a565b8114610e3657600080fd5b50565b600081359050610e4881610e22565b92915050565b600060208284031215610e6457610e636106c8565b5b6000610e7284828501610e39565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b600081905092915050565b6000610ec082610a47565b610eca8185610eaa565b9350610eda818560208601610a63565b80840191505092915050565b6000610ef28284610eb5565b915081905092915050565b600082825260208201905092915050565b7f4d756c746963616c6c206167677265676174653a2063616c6c206661696c6564600082015250565b6000610f44602083610efd565b9150610f4f82610f0e565b602082019050919050565b60006020820190508181036000830152610f7381610f37565b9050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6000610fb48261068a565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff821415610fe757610fe6610f7a565b5b600182019050919050565b6000610ffd8261068a565b91506110088361068a565b92508282101561101b5761101a610f7a565b5b828203905092915050565b7f4d756c746963616c6c32206167677265676174653a2063616c6c206661696c6560008201527f6400000000000000000000000000000000000000000000000000000000000000602082015250565b6000611082602183610efd565b915061108d82611026565b604082019050919050565b600060208201905081810360008301526110b181611075565b905091905056fea2646970667358221220abd9cadc14e2f74213535fd9ad887c7bdc5f4ea6aa73d9aedcb1f0513098ea8e64736f6c63430008090033",
           "storage": []
         },
         {
-          "address": "0x70C79B608aBBC502c2F61f38E04190fB407BefCF",
+          "address": "0x22f252be5C74EB76ddf96239FE18f3832a6667d5",
           "code": "6080604052600436106100a05760003560e01c8063313ce56711610064578063313ce567146101ad57806370a08231146101d857806395d89b4114610215578063a9059cbb14610240578063d0e30db01461027d578063dd62ed3e14610287576100af565b806306fdde03146100b4578063095ea7b3146100df57806318160ddd1461011c57806323b872dd146101475780632e1a7d4d14610184576100af565b366100af576100ad6102c4565b005b600080fd5b3480156100c057600080fd5b506100c961036a565b6040516100d69190610bbe565b60405180910390f35b3480156100eb57600080fd5b5061010660048036038101906101019190610c79565b6103f8565b6040516101139190610cd4565b60405180910390f35b34801561012857600080fd5b506101316104ea565b60405161013e9190610cfe565b60405180910390f35b34801561015357600080fd5b5061016e60048036038101906101699190610d19565b6104f2565b60405161017b9190610cd4565b60405180910390f35b34801561019057600080fd5b506101ab60048036038101906101a69190610d6c565b6108c2565b005b3480156101b957600080fd5b506101c2610a32565b6040516101cf9190610db5565b60405180910390f35b3480156101e457600080fd5b506101ff60048036038101906101fa9190610dd0565b610a45565b60405161020c9190610cfe565b60405180910390f35b34801561022157600080fd5b5061022a610a5d565b6040516102379190610bbe565b60405180910390f35b34801561024c57600080fd5b5061026760048036038101906102629190610c79565b610aeb565b6040516102749190610cd4565b60405180910390f35b6102856102c4565b005b34801561029357600080fd5b506102ae60048036038101906102a99190610dfd565b610b00565b6040516102bb9190610cfe565b60405180910390f35b34600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282546103139190610e6c565b925050819055503373ffffffffffffffffffffffffffffffffffffffff167fe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c346040516103609190610cfe565b60405180910390a2565b6000805461037790610ef1565b80601f01602080910402602001604051908101604052809291908181526020018280546103a390610ef1565b80156103f05780601f106103c5576101008083540402835291602001916103f0565b820191906000526020600020905b8154815290600101906020018083116103d357829003601f168201915b505050505081565b600081600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040516104d89190610cfe565b60405180910390a36001905092915050565b600047905090565b600081600360008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015610576576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161056d90610f6f565b60405180910390fd5b3373ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff161415801561064e57507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff600460008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205414155b156107a65781600460008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015610712576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161070990610fdb565b60405180910390fd5b81600460008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825461079e9190610ffb565b925050819055505b81600360008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282546107f59190610ffb565b9250508190555081600360008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825461084b9190610e6c565b925050819055508273ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040516108af9190610cfe565b60405180910390a3600190509392505050565b80600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015610944576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161093b90610f6f565b60405180910390fd5b80600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282546109939190610ffb565b925050819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f193505050501580156109e0573d6000803e3d6000fd5b503373ffffffffffffffffffffffffffffffffffffffff167f7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b6582604051610a279190610cfe565b60405180910390a250565b600260009054906101000a900460ff1681565b60036020528060005260406000206000915090505481565b60018054610a6a90610ef1565b80601f0160208091040260200160405190810160405280929190818152602001828054610a9690610ef1565b8015610ae35780601f10610ab857610100808354040283529160200191610ae3565b820191906000526020600020905b815481529060010190602001808311610ac657829003601f168201915b505050505081565b6000610af83384846104f2565b905092915050565b6004602052816000526040600020602052806000526040600020600091509150505481565b600081519050919050565b600082825260208201905092915050565b60005b83811015610b5f578082015181840152602081019050610b44565b83811115610b6e576000848401525b50505050565b6000601f19601f8301169050919050565b6000610b9082610b25565b610b9a8185610b30565b9350610baa818560208601610b41565b610bb381610b74565b840191505092915050565b60006020820190508181036000830152610bd88184610b85565b905092915050565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000610c1082610be5565b9050919050565b610c2081610c05565b8114610c2b57600080fd5b50565b600081359050610c3d81610c17565b92915050565b6000819050919050565b610c5681610c43565b8114610c6157600080fd5b50565b600081359050610c7381610c4d565b92915050565b60008060408385031215610c9057610c8f610be0565b5b6000610c9e85828601610c2e565b9250506020610caf85828601610c64565b9150509250929050565b60008115159050919050565b610cce81610cb9565b82525050565b6000602082019050610ce96000830184610cc5565b92915050565b610cf881610c43565b82525050565b6000602082019050610d136000830184610cef565b92915050565b600080600060608486031215610d3257610d31610be0565b5b6000610d4086828701610c2e565b9350506020610d5186828701610c2e565b9250506040610d6286828701610c64565b9150509250925092565b600060208284031215610d8257610d81610be0565b5b6000610d9084828501610c64565b91505092915050565b600060ff82169050919050565b610daf81610d99565b82525050565b6000602082019050610dca6000830184610da6565b92915050565b600060208284031215610de657610de5610be0565b5b6000610df484828501610c2e565b91505092915050565b60008060408385031215610e1457610e13610be0565b5b6000610e2285828601610c2e565b9250506020610e3385828601610c2e565b9150509250929050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6000610e7782610c43565b9150610e8283610c43565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff03821115610eb757610eb6610e3d565b5b828201905092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052602260045260246000fd5b60006002820490506001821680610f0957607f821691505b60208210811415610f1d57610f1c610ec2565b5b50919050565b7f574b4156413a20616d6f756e74203c2062616c616e6365000000000000000000600082015250565b6000610f59601783610b30565b9150610f6482610f23565b602082019050919050565b60006020820190508181036000830152610f8881610f4c565b9050919050565b7f574b4156413a20616c6c6f77616e6365203c20616d6f756e7400000000000000600082015250565b6000610fc5601983610b30565b9150610fd082610f8f565b602082019050919050565b60006020820190508181036000830152610ff481610fb8565b9050919050565b600061100682610c43565b915061101183610c43565b92508282101561102457611023610e3d565b5b82820390509291505056fea26469706673582212200c0f9b15327ac79d31169413e421bd27d39e9809f7fd940e8929ed9685f5fa4564736f6c63430008090033",
           "storage": [
             {
@@ -2102,7 +2102,7 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "fury14w4avgdvqrlpww6l5dhgj4egfn6ln7gmxhytjv",
+                "delegator_address": "fury14w4avgdvqrlpww6l5dhgj4egfn6ln7gm2feehy",
                 "validator_address": "furyvaloper14w4avgdvqrlpww6l5dhgj4egfn6ln7gmtp7r2m",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
@@ -2791,7 +2791,7 @@
       "swap_claims": [
         {
           "base_claim": {
-            "owner": "fury1ektgdyy0z23qqnd67ns3qvfzgfgjd5xe82lf5c",
+            "owner": "fury1ektgdyy0z23qqnd67ns3qvfzgfgjd5xet5zm3s",
             "reward": []
           },
           "reward_indexes": [
@@ -2803,7 +2803,7 @@
         },
         {
           "base_claim": {
-            "owner": "fury173w2zz287s36ewnnkf4mjansnthnnsz7rtrxqc",
+            "owner": "fury173w2zz287s36ewnnkf4mjansnthnnsz704759s",
             "reward": []
           },
           "reward_indexes": [
@@ -2828,7 +2828,7 @@
       "params": {
         "assets": [
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "ufury",
             "blocked_addresses": [],
             "paused": false,
@@ -2840,7 +2840,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "erc20/multichain/usdt",
             "blocked_addresses": [],
             "paused": false,
@@ -2852,7 +2852,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "usdf",
             "blocked_addresses": [],
             "paused": false,
@@ -2864,7 +2864,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "erc20/multichain/usdc",
             "blocked_addresses": [],
             "paused": false,
@@ -2876,7 +2876,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "jinx",
             "blocked_addresses": [],
             "paused": false,
@@ -2888,7 +2888,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "mer",
             "blocked_addresses": [],
             "paused": false,
@@ -2900,7 +2900,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "busd",
             "blocked_addresses": [],
             "paused": false,
@@ -2912,7 +2912,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "btcb",
             "blocked_addresses": [],
             "paused": false,
@@ -2924,7 +2924,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "bnb",
             "blocked_addresses": [],
             "paused": false,
@@ -2936,7 +2936,7 @@
             }
           },
           {
-            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz3fyfhwq",
+            "owner": "fury1vlpsrmdyuywvaqrv7rx6xga224sqfwz39659tg",
             "denom": "xrpb",
             "blocked_addresses": [],
             "paused": false,
@@ -2982,7 +2982,7 @@
             "base_asset": "bnb",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -2991,7 +2991,7 @@
             "base_asset": "bnb",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3000,7 +3000,7 @@
             "base_asset": "btc",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3009,7 +3009,7 @@
             "base_asset": "btc",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3018,7 +3018,7 @@
             "base_asset": "eth",
             "quote_asset": "eth",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3027,7 +3027,7 @@
             "base_asset": "eth",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3036,7 +3036,7 @@
             "base_asset": "xrp",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3045,7 +3045,7 @@
             "base_asset": "xrp",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3054,7 +3054,7 @@
             "base_asset": "busd",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3063,7 +3063,7 @@
             "base_asset": "busd",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3072,7 +3072,7 @@
             "base_asset": "usdc",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3081,7 +3081,7 @@
             "base_asset": "usdc",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3090,7 +3090,7 @@
             "base_asset": "usdt",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3099,7 +3099,7 @@
             "base_asset": "usdt",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3108,7 +3108,7 @@
             "base_asset": "fury",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3117,7 +3117,7 @@
             "base_asset": "fury",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3126,7 +3126,7 @@
             "base_asset": "jinx",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3135,7 +3135,7 @@
             "base_asset": "jinx",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3144,7 +3144,7 @@
             "base_asset": "atom",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3153,7 +3153,7 @@
             "base_asset": "atom",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3162,7 +3162,7 @@
             "base_asset": "osmo",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3171,7 +3171,7 @@
             "base_asset": "osmo",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3180,7 +3180,7 @@
             "base_asset": "akt",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3189,7 +3189,7 @@
             "base_asset": "akt",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3198,7 +3198,7 @@
             "base_asset": "luna",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3207,7 +3207,7 @@
             "base_asset": "luna",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3216,7 +3216,7 @@
             "base_asset": "usdf",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3225,7 +3225,7 @@
             "base_asset": "usdf",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3234,7 +3234,7 @@
             "base_asset": "usdf",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3243,7 +3243,7 @@
             "base_asset": "mer",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           },
@@ -3252,7 +3252,7 @@
             "base_asset": "mer",
             "quote_asset": "usd",
             "oracles": [
-              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h"
+              "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll"
             ],
             "active": true
           }
@@ -3262,187 +3262,187 @@
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "bnb:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "215.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "bnb:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "217.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "btc:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "29500.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "btc:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "28500.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "eth:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "16250.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "eth:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "16250.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "akt:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "1.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "akt:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "1.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "osmo:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "4.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "osmo:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "4.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "luna:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "92.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "luna:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "92.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "atom:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "24.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "atom:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "24.962650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "xrp:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "0.552650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "xrp:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "0.552650000000001782"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "busd:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "busd:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "usdf:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "usdf:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "usdf:usd:720",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "fury:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "3.000000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "fury:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "3.000000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "jinx:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "0.500000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "jinx:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "0.500000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "mer:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "2.150000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "mer:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "2.150000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "usdt:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "usdc:usd",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "usdt:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "1.000000000000000000"
         },
         {
           "expiry": "2050-01-01T00:00:00Z",
           "market_id": "usdc:usd:30",
-          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrps3e6h",
+          "oracle_address": "fury1hdn83q3srldcpan4ex2v4npuae8hmnfrdwvtll",
           "price": "1.000000000000000000"
         }
       ]
@@ -3591,22 +3591,22 @@
       ],
       "share_records": [
         {
-          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz7rtrxqc",
+          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz704759s",
           "pool_id": "btcb:usdf",
           "shares_owned": "4472135954"
         },
         {
-          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz7rtrxqc",
+          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz704759s",
           "pool_id": "jinx:usdf",
           "shares_owned": "1000000000"
         },
         {
-          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz7rtrxqc",
+          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz704759s",
           "pool_id": "mer:usdf",
           "shares_owned": "2236067977"
         },
         {
-          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz7rtrxqc",
+          "depositor": "fury173w2zz287s36ewnnkf4mjansnthnnsz704759s",
           "pool_id": "ufury:usdf",
           "shares_owned": "2236067977"
         }

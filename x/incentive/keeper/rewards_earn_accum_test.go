@@ -92,7 +92,7 @@ func (suite *AccumulateEarnRewardsTests) TestStateUpdatedWhenBlockTimeHasIncreas
 }
 
 func (suite *AccumulateEarnRewardsTests) TestStateUpdatedWhenBlockTimeHasIncreased_bfury() {
-	vaultDenom1 := "bfury-meow"
+	vaultDenom1 := "bfury-jinx"
 	vaultDenom2 := "bfury-woof"
 
 	previousAccrualTime := time.Date(1998, 1, 1, 0, 0, 0, 0, time.UTC)
@@ -177,7 +177,7 @@ func (suite *AccumulateEarnRewardsTests) TestStateUpdatedWhenBlockTimeHasIncreas
 }
 
 func (suite *AccumulateEarnRewardsTests) TestStateUpdatedWhenBlockTimeHasIncreased_bfury_partialDeposit() {
-	vaultDenom1 := "bfury-meow"
+	vaultDenom1 := "bfury-jinx"
 	vaultDenom2 := "bfury-woof"
 
 	vaultDenom1Supply := i(800000)
@@ -348,7 +348,7 @@ func (suite *AccumulateEarnRewardsTests) TestStateUnchangedWhenBlockTimeHasNotIn
 }
 
 func (suite *AccumulateEarnRewardsTests) TestStateUnchangedWhenBlockTimeHasNotIncreased_bfury() {
-	vaultDenom1 := "bfury-meow"
+	vaultDenom1 := "bfury-jinx"
 	vaultDenom2 := "bfury-woof"
 
 	previousAccrualTime := time.Date(1998, 1, 1, 0, 0, 0, 0, time.UTC)
@@ -470,7 +470,7 @@ func (suite *AccumulateEarnRewardsTests) TestNoAccumulationWhenSourceSharesAreZe
 }
 
 func (suite *AccumulateEarnRewardsTests) TestNoAccumulationWhenSourceSharesAreZero_bfury() {
-	vaultDenom1 := "bfury-meow"
+	vaultDenom1 := "bfury-jinx"
 	vaultDenom2 := "bfury-woof"
 
 	earnKeeper := newFakeEarnKeeper() // no vault, so no source shares
@@ -584,7 +584,7 @@ func (suite *AccumulateEarnRewardsTests) TestStateAddedWhenStateDoesNotExist() {
 }
 
 func (suite *AccumulateEarnRewardsTests) TestStateAddedWhenStateDoesNotExist_bfury() {
-	vaultDenom1 := "bfury-meow"
+	vaultDenom1 := "bfury-jinx"
 	vaultDenom2 := "bfury-woof"
 
 	firstAccrualTime := time.Date(1998, 1, 1, 0, 0, 0, 0, time.UTC)
@@ -673,7 +673,7 @@ func (suite *AccumulateEarnRewardsTests) TestNoPanicWhenStateDoesNotExist() {
 }
 
 func (suite *AccumulateEarnRewardsTests) TestNoPanicWhenStateDoesNotExist_bfury() {
-	vaultDenom1 := "bfury-meow"
+	vaultDenom1 := "bfury-jinx"
 	vaultDenom2 := "bfury-woof"
 
 	earnKeeper := newFakeEarnKeeper()

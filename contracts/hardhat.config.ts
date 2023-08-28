@@ -16,11 +16,11 @@ const config: HardhatUserConfig = {
   },
   networks: {
     // futool's local network
-    fury: {
+    highbury: {
       url: "http://127.0.0.1:8545",
       accounts: [
         // fury keys unsafe-export-eth-key whale2
-        "AA50F4C6C15190D9E18BF8B14FC09BFBA0E7306331A4F232D10A77C2879E7966",
+        "8D86F6C19AE640963D2A216B26B9AB34CA9721EAED1B05B611C18451F60C3209",
       ],
     },
     protonet: {
