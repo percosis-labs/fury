@@ -189,7 +189,7 @@ func (suite *convertCosmosCoinFromERC20Suite) SetupTest() {
 	var err error
 	suite.Suite.SetupTest()
 
-	suite.denom = "kava"
+	suite.denom = "fury"
 	suite.initiator = testutil.RandomInternalEVMAddress()
 	suite.receiver = app.RandomAddress()
 
