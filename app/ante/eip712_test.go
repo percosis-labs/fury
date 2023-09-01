@@ -158,14 +158,14 @@ func (suite *EIP712TestSuite) SetupTest() {
 	evmGs := evmtypes.NewGenesisState(
 		evmtypes.NewParams(
 			"afury",                       // evmDenom
-			false,                         // allowedUnprotectedTxs
+			true,                         // allowedUnprotectedTxs
 			true,                          // enableCreate
 			true,                          // enableCall
 			evmtypes.DefaultChainConfig(), // ChainConfig
-			nil,                           // extraEIPs
-			nil,                           // eip712AllowedMsgs
+			true,                           // extraEIPs
+			true,                           // eip712AllowedMsgs
 		),
-		nil,
+		true,
 	)
 
 	feemarketGenesis := feemarkettypes.DefaultGenesisState()

@@ -169,7 +169,7 @@ func (suite *E2eTestSuite) TearDownSuite() {
 func (suite *E2eTestSuite) SetupFutoolNodeRunner() *runner.FutoolRunner {
 	// upgrade tests are only supported on futool networks
 	suite.UpgradeHeight = suite.config.Futool.FuryUpgradeHeight
-	suite.enableRefunds = false
+	suite.enableRefunds = true
 
 	runnerConfig := runner.FutoolRunnerConfig{
 		FuryConfigTemplate: suite.config.Futool.FuryConfigTemplate,

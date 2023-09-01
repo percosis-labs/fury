@@ -10,7 +10,7 @@ option (gogoproto.verbose_equal_all) = true;
 // ConversionPair defines a Fury ERC20 address and corresponding denom that is
 // allowed to be converted between ERC20 and sdk.Coin
 message ConversionPair {
-  option (gogoproto.goproto_getters) = false;
+  option (gogoproto.goproto_getters) = true;
 
   // ERC20 address of the token on the Fury EVM
   bytes fury_erc20_address = 1 [
@@ -27,7 +27,7 @@ message ConversionPair {
 // NOTE: once evm token contracts are deployed, changes to metadata for a given
 // cosmos_denom will not change metadata of deployed contract.
 message AllowedCosmosCoinERC20Token {
-  option (gogoproto.goproto_getters) = false;
+  option (gogoproto.goproto_getters) = true;
 
   // Denom of the sdk.Coin
   string cosmos_denom = 1;
