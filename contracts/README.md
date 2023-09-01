@@ -29,6 +29,7 @@ npm run test-watch
 
 A deploy script is included in this hardhat project to deploy a contract directly to a network.
 To deploy the contracts to different networks:
+
 ```
 npx hardhat run --network <network-name> scripts/deploy.ts
 ```
@@ -40,6 +41,7 @@ Configuration for various `<network-name>`s above are setup in the [hardhat conf
 Ethermint uses its own json format that includes the ABI and bytecode in a single file. The bytecode should have no `0x` prefix and should be under the property name `bin`. This structure is built from the compiled code with `npm ethermint-json`.
 
 The following compiles the contract, builds the ethermint json and copies the file to the evmutil:
+
 ```
 npm build
 ```

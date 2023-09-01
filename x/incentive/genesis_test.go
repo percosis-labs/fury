@@ -12,11 +12,11 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
 	"github.com/percosis-labs/fury/app"
-	jinxtypes "github.com/percosis-labs/fury/x/jinx/types"
+	furydisttypes "github.com/percosis-labs/fury/x/furydist/types"
 	"github.com/percosis-labs/fury/x/incentive"
 	"github.com/percosis-labs/fury/x/incentive/keeper"
 	"github.com/percosis-labs/fury/x/incentive/types"
-	furydisttypes "github.com/percosis-labs/fury/x/furydist/types"
+	jinxtypes "github.com/percosis-labs/fury/x/jinx/types"
 )
 
 const (

@@ -15,12 +15,12 @@ import (
 	"github.com/percosis-labs/fury/x/committee"
 	committeekeeper "github.com/percosis-labs/fury/x/committee/keeper"
 	committeetypes "github.com/percosis-labs/fury/x/committee/types"
-	"github.com/percosis-labs/fury/x/jinx"
-	jinxkeeper "github.com/percosis-labs/fury/x/jinx/keeper"
+	furydisttypes "github.com/percosis-labs/fury/x/furydist/types"
 	"github.com/percosis-labs/fury/x/incentive/keeper"
 	"github.com/percosis-labs/fury/x/incentive/testutil"
 	"github.com/percosis-labs/fury/x/incentive/types"
-	furydisttypes "github.com/percosis-labs/fury/x/furydist/types"
+	"github.com/percosis-labs/fury/x/jinx"
+	jinxkeeper "github.com/percosis-labs/fury/x/jinx/keeper"
 )
 
 type BorrowIntegrationTests struct {

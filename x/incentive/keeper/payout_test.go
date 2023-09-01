@@ -15,11 +15,11 @@ import (
 	"github.com/percosis-labs/fury/app"
 	cdpkeeper "github.com/percosis-labs/fury/x/cdp/keeper"
 	cdptypes "github.com/percosis-labs/fury/x/cdp/types"
-	jinxkeeper "github.com/percosis-labs/fury/x/jinx/keeper"
+	furydisttypes "github.com/percosis-labs/fury/x/furydist/types"
 	"github.com/percosis-labs/fury/x/incentive/keeper"
 	"github.com/percosis-labs/fury/x/incentive/testutil"
 	"github.com/percosis-labs/fury/x/incentive/types"
-	furydisttypes "github.com/percosis-labs/fury/x/furydist/types"
+	jinxkeeper "github.com/percosis-labs/fury/x/jinx/keeper"
 )
 
 // Test suite used for all keeper tests

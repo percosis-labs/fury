@@ -24,6 +24,5 @@ The process is:
 On each release we can delete the previous releases migration and old GenesisState type.
 eg fury-3 migrates `auth.GenesisState` from fury-2 to `auth.GenesisState` from fury-3,
 but for fury-4 we don't need to keep around fury-2's `auth.GenesisState` type.
-
 */
 package migrate

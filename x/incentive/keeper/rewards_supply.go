@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	jinxtypes "github.com/percosis-labs/fury/x/jinx/types"
 	"github.com/percosis-labs/fury/x/incentive/types"
+	jinxtypes "github.com/percosis-labs/fury/x/jinx/types"
 )
 
 // AccumulateJinxSupplyRewards calculates new rewards to distribute this block and updates the global indexes to reflect this.

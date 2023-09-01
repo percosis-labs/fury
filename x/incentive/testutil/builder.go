@@ -8,8 +8,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/percosis-labs/fury/app"
-	jinxtypes "github.com/percosis-labs/fury/x/jinx/types"
 	"github.com/percosis-labs/fury/x/incentive/types"
+	jinxtypes "github.com/percosis-labs/fury/x/jinx/types"
 	savingstypes "github.com/percosis-labs/fury/x/savings/types"
 )
 

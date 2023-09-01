@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	jinxtypes "github.com/percosis-labs/fury/x/jinx/types"
 	"github.com/percosis-labs/fury/x/incentive/keeper"
 	"github.com/percosis-labs/fury/x/incentive/types"
+	jinxtypes "github.com/percosis-labs/fury/x/jinx/types"
 )
 
 // SynchronizeJinxBorrowRewardTests runs unit tests for the keeper.SynchronizeJinxBorrowReward method

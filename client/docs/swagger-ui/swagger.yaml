@@ -6,7 +6,7 @@ info:
 externalDocs:
   description: GitHub
   url: https://github.com/Percosis-Labs/fury
-host: api.data.fury.io
+host: api-mainnet.furya.io
 schemes:
   - https
 paths:

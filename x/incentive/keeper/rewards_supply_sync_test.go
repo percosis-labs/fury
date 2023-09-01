@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
-	jinxtypes "github.com/percosis-labs/fury/x/jinx/types"
 	"github.com/percosis-labs/fury/x/incentive/types"
+	jinxtypes "github.com/percosis-labs/fury/x/jinx/types"
 )
 
 // SynchronizeJinxSupplyRewardTests runs unit tests for the keeper.SynchronizeJinxSupplyReward method
