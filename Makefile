@@ -263,6 +263,47 @@ start:
 	./contrib/devnet/init-new-chain.sh
 	fury start
 
+
+GETH_VERSION := v1.10.17
+
+.PHONY: install-devtools
+install-devtools: ## Install solc and abigen used by compile-contracts
+	cd contract && npm install
+	$(GO) install github.com/ethereum/go-ethereum/cmd/abigen@$(GETH_VERSION)
+	$(GO) install github.com/ethereum/go-ethereum/cmd/geth@$(GETH_VERSION)
+
+JQ ?= jq
+NPM ?= npm
+SOLC ?= npx solc
+ABIGEN ?= abigen
+
+.PHONY: compile-contracts
+compile-contracts: contract/ethermint_json/ERC20MintableBurnable.json relayer/bridge.go relayer/erc20.go ## Compiles contracts and creates ethermint compatible json
+
+contract/artifacts/contracts/ERC20MintableBurnable.sol/ERC20MintableBurnable.json: contract/contracts/ERC20MintableBurnable.sol
+	cd contract && $(NPM) run compile
+
+# Ethermint has their own json format for a compiled contract. The following
+# converts the abi field to a stringified array, renames bytecode field name to
+# bin with the leading `0x` trimmed.
+contract/ethermint_json/ERC20MintableBurnable.json: contract/artifacts/contracts/ERC20MintableBurnable.sol/ERC20MintableBurnable.json
+	mkdir -p contract/ethermint_json
+	$(JQ) '.abi = (.abi | tostring) | {abi, bin: .bytecode[2:] }' < $< > $@
+
+contract/artifacts/Bridge.abi: contract/contracts/Bridge.sol
+	cd contract && $(SOLC) --abi contracts/Bridge.sol --base-path . --include-path node_modules/ -o artifacts --overwrite
+
+contract/artifacts/Bridge.bin: contract/contracts/Bridge.sol
+	cd contract && $(SOLC) --optimize --bin contracts/Bridge.sol --base-path . --include-path node_modules/ -o artifacts --overwrite
+
+contract/artifacts/node_modules_@openzeppelin_contracts_token_ERC20_ERC20_sol_ERC20.abi: contract/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol
+	cd contract && $(SOLC) --abi node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol --base-path . --include-path node_modules/ -o artifacts --overwrite
+
+relayer/bridge.go: contract/artifacts/Bridge.bin contract/artifacts/Bridge.abi
+	$(ABIGEN) --bin $< --abi $(word 2,$^) --pkg relayer --type Bridge --out $@ --overwrite
+
+relayer/erc20.go: contract/artifacts/ERC20.abi
+	$(ABIGEN) --abi $< --pkg relayer --type ERC20 --out $@
 #proto-format:
 #@echo "Formatting Protobuf files"
 #@if docker ps -a --format '{{.Names}}' | grep -Eq "^${containerProtoFmt}$$"; then docker start -a $(containerProtoFmt); else docker run --name $(containerProtoFmt) -v $(CURDIR):/workspace --workdir /workspace tendermintdev/docker-build-proto \

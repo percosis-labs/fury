@@ -12,7 +12,7 @@ evmFaucetMnemonic="hundred flash cattle inquiry gorilla quick enact lazy galaxy 
 # 0x3C854F92F726A7897C8B23F55B2D6E2C482EF3E0
 # fury18jz5lyhhy6ncjlyty064kttw93yzaulq7rlptu
 
-userMnemonic="news tornado sponsor drastic dolphin awful plastic select true lizard width idle ability pigeon runway lift oppose isolate maple aspect safe jungle author hole"
+userMnemonic="enhance mention joke rifle lawn egg improve gravity off crumble visit name immense exist cage canoe tuna mention hand guide cloth capital input uphold"
 # 0x7Bbf300890857b8c241b219C6a489431669b3aFA
 # fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6qm7n4t
 
@@ -27,7 +27,7 @@ rm -rf $DATA
 BINARY=fury
 
 # Create new data directory, overwriting any that alread existed
-chainID="furylocalnet_8888-1"
+chainID="highbury_710-1"
 $BINARY init validator --chain-id $chainID
 
 # hacky enable of rest api
